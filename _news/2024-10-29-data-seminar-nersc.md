@@ -14,6 +14,7 @@ There were several interesting discussions on the similarities between Earth wea
 
 [![Watch the video](https://img.youtube.com/vi/9_uV6NzbLbU/0.jpg)](https://www.youtube.com/watch?v=9_uV6NzbLbU)
 
+
 After the talk, I visited the Perlmutter GPU cluster, which is surprisingly silent. Thanks, liquid cooling. And met by chance over lunch the legend Fernando Perez, creator of Jupyter.
 
 Many thanks to Steve Farrell for being such a wonderful host. 
