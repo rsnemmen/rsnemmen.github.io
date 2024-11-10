@@ -23,32 +23,27 @@ I use many tools in my research:
 ---
 **Key discoveries (no astrophysics background required)**
 
-For a summary of my most significant scientific discoveries written in an accessible way, go to TBD.
+Go [here for a summary of my most significant scientific discoveries](/key-science/) written in an accessible way.
 
 ---
 
 
-## Previous and current research topics
-
-TBC
+## Current research topics
 
 ### Numerical simulations of black hole accretion and outflows
 
-- Winds and jets
-- Feedback on the host galaxy
+- Winds and jets; feedback on the host galaxy
 - Radiative processes in the hot plasma near event horizons
 - Accelerated methods using NVIDIA GPUs (CUDA)
-- Projects involving analytical work also possible (like [this one](https://ui.adsabs.harvard.edu/abs/2023MNRAS.526..217A/abstract))
+- Ergomagnetosphere
 
 ### Gamma-ray astronomy 
 
-- *Fermi* LAT
-- CTA
+- Low-luminosity AGNs
+- Intermediate-mass black holes
+- Observatories: *Fermi* LAT, CTA
 
-### Analysis and modeling of multiwavelength/multimessenger observations of supermassive black holes
-
-- Radio to gamma-rays spectral energy distributions 
-- Neutrinos and cosmic ray production
+### Supermassive binary black holes and electromagnetic counterparts
 
 ### Machine learning
 
