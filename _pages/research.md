@@ -1,9 +1,9 @@
 ---
 layout: page
-title: research
-permalink: /research/
-description: My field of research.
-nav: true
+title: astrophysics
+permalink: /astrophysics/
+description: Current astrophysical interests.
+nav: false
 nav_order: 5
 display_categories: [work]
 horizontal: false
