@@ -11,7 +11,7 @@ horizontal: false
 
 My field of research is black hole astrophysics: where *physics*, *astronomy*, *statistics* and *high-performance computing* collide. Out of this collision, I hope to get profound insights about the nature of gravity and the role of black holes in the cosmos. 
 
-I work at the interface between theory and observations, employing advanced computational simulations to model black hole accretion and their outflows, and studying their observed electromagnetic-ray emission.  
+I work at the interface between theory and observations, employing advanced computational simulations to model black hole accretion and their outflows, and studying their observed electromagnetic-ray emission.
 
 I use many tools in my research: 
 
@@ -20,9 +20,12 @@ I use many tools in my research:
 - High-performance computing and fluid dynamics simulations on GPUs
 - Machine learning and predictive models
 
-<div class="alert alert-info"><h4>Key discoveries (no astrophysics background required)</h4><p>
+---
+**Key discoveries (no astrophysics background required)**
+
 For a summary of my most significant scientific discoveries written in an accessible way, go to TBD.
-</p></div>
+
+---
 
 
 ## Previous and current research topics
