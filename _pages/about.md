@@ -9,8 +9,8 @@ profile:
   image: profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Kavli Institute for Particle Astrophysics and Cosmology</p>
-    <p>Stanford University</p>
+    <p><a href="https://kipac.stanford.edu">KIPAC</a>, Stanford University</p>
+    <p><a href="https://www.iag.usp.br">IAG</a>, University of Sao Paulo</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
