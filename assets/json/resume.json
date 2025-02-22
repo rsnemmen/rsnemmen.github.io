@@ -1,16 +1,16 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Rodrigo Nemmen",
+    "label": "Research Lead & Faculty",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "rsnemmen@icloud.com",
+    "phone": "",
+    "url": "https://rsnemmen.github.io/",
+    "summary": "Rodrigo Nemmen is an astrophysicist and machine learning scientist specializing in modeling and forecasting complex, chaotic systems, from black hole dynamics to turbulent fluid flows. He pioneers AI-driven approaches to accelerate complex simulations, bridging deep learning, statistical inference, and high-performance computing to tackle challenges at the limits of predictability with a wide range of potential applications. ",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "",
+      "postalCode": "",
+      "city": "Millbrae",
       "countryCode": "US",
       "region": "California"
     },
@@ -60,9 +60,9 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
+      "title": "Miriani Pastoriza Prize",
+      "date": "2015-11-01",
+      "awarder": "Brazilian Astronomical Society",
       "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
@@ -151,13 +151,13 @@
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Fluent",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Portuguese",
+      "fluency": "Native speaker",
       "icon": ""
     }
   ],
