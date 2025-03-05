@@ -1,14 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
-
+  - rsnemmen
+  
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - rsnemmen/bces
+  - rsnemmen/nmmn
+  - rsnemmen/OpenCL-examples
+  - rsnemmen/cusl
+  - black-hole-group/AGNNES
+  - black-hole-group/gpumonty
+  - rsnemmen/Fermi-LAT-tutorial
+  
