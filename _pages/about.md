@@ -12,9 +12,18 @@ profile:
     <p><a href="https://kipac.stanford.edu">KIPAC</a>, Stanford University</p>
     <p><a href="https://www.iag.usp.br">IAG</a>, University of Sao Paulo</p>
 
-news: true # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
 As an astrophysicist, I've spent 14 years unraveling the mysteries of black holes and decoding complex astronomical phenomena. My journey has taken me from **NASA** to **Stanford** and **University of Sao Paulo (USP)**, where I've honed my skills in problem solving, computational models and scientific data exploration (satellite-based). At USP, I've had the privilege of leading diverse teams and mentoring the next generation of scientists. 
