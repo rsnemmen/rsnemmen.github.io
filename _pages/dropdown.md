@@ -7,7 +7,9 @@ dropdown: true
 children:
   - title: astrophysics
     permalink: /astrophysics/
-  - title: divider
   - title: key discoveries
     permalink: /key-science/
+  - title: divider
+  - title: applied research
+    permalink: /applied/    
 ---
