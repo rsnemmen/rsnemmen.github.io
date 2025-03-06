@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -92,7 +92,7 @@ ninja.data = [{
           title: 'Customer Churn',
           description: "Reduced customer churn by 23% using gradient boosting classification",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_template/";
+              window.location.href = "/projects/2_churn/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
