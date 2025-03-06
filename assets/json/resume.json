@@ -33,7 +33,26 @@
       "highlights": ["Led teams of 5 to 10 data and computational scientists in ML, predictive modeling and simulation projects. I oversee our research goals, core strategies and data science roadmap."] 
         //"Conceptualized and spearheaded the training of a TensorFlow deep learning model on an image dataset representing astrophysical gas dynamics, resulting in forecasting 10,000x faster than traditional methods.", 
         //"Devised and led the deployment strategy of a deep learning model for astronomical spectra, accelerating predictions from input parameters by 1000x and enabling Bayesian inference with Markov chain Monte Carlo."]
-    }
+    },
+    {
+      "name": "Stanford University",
+      "position": "Research Scientist",
+      "url": "",
+      "startDate": "2022-12-7",
+      "endDate": "2024-12-7",
+      "summary": "Carried out research in high-energy astrophysics and machine learning, working with Professor Roger Blandford"
+    },     
+    {
+      "name": "NASA Goddard Space Flight Center",
+      "position": "NASA Postdoctoral Fellow",
+      "url": "",
+      "startDate": "2010-08-10",
+      "endDate": "2014-03-01",
+      "summary": "",
+      "highlights": ["Lead developer for BCES—a Python regression package now used by hundreds of astronomers worldwide.",
+                  "Conducted feature engineering and regression analysis on satellite data, uncovering causal relationships in black hole power and radiation, which led to a new empirical law and a publication in Science.",
+                  "Employed techniques like partial correlation, multivariate regression, and bootstrapping on data from 35 galaxies, revealing significant links between galaxy properties and black hole feedback."]
+    }    
   ],
   "education": [
     {
