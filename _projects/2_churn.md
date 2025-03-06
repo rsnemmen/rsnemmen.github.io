@@ -9,7 +9,7 @@ category: work
 
 ## Executive Summary
 
-Voracious is a fictitious large telecommunications company operating in California. Customer churn is costing Voracious approximately 900M dollars annually in lost revenue. I developed a logistic regression model that identified at-risk customers with 🟩 95% accuracy, enabling targeted retention campaigns that reduced monthly churn from 7.2% to 5.5% — a projected $740K annual savings. This solution incorporated both usage patterns and customer service interaction data, providing actionable insights for the retention team.
+Horizon is a fictitious large telecommunications company operating in California. Customer churn is costing Horizon approximately 900M dollars annually in lost revenue. I developed a logistic regression model that identified at-risk customers with 🟩 95% accuracy, enabling targeted retention campaigns that reduced monthly churn from 7.2% to 5.5% — a projected $740K annual savings. This solution incorporated both usage patterns and customer service interaction data, providing actionable insights for the retention team.
 
 Reasoning behind the range given between 100M-1B is as follows. 
 10 million Californian customers

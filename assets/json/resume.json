@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Rodrigo Nemmen",
+    "label": "Research Lead & Faculty",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "rsnemmen@icloud.com",
+    "phone": "",
+    "url": "https://rsnemmen.github.io/",
+    "summary": "As an astrophysicist with 10+ years studying black holes and complex astronomical phenomena, I've developed expertise in computational models and scientific data exploration. ",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -24,25 +24,15 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
+      "name": "University of Sao Paulo",
+      "position": "Professor of Astrophysics",
+      "url": "https://rodrigonemmen.com",
       "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "endDate": "2025-03-01",
+      "summary": "",
+      "highlights": ["Led teams of 5 to 10 data and computational scientists in ML, predictive modeling and simulation projects. I oversee our research goals, core strategies and data science roadmap."] 
+        //"Conceptualized and spearheaded the training of a TensorFlow deep learning model on an image dataset representing astrophysical gas dynamics, resulting in forecasting 10,000x faster than traditional methods.", 
+        //"Devised and led the deployment strategy of a deep learning model for astronomical spectra, accelerating predictions from input parameters by 1000x and enabling Bayesian inference with Markov chain Monte Carlo."]
     }
   ],
   "education": [

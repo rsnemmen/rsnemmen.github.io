@@ -15,7 +15,7 @@ horizontal: false
 * **Uncertainty Modeling:** Skilled in Bayesian inference, bootstrapping, quantile regression, and censored data techniques to ensure robust risk assessment and probabilistic forecasting in high-stakes environments.
 * **Advanced Machine Learning & Data Analysis:** Proficient in deep neural networks, transformers, and physical neural networks, with extensive practical expertise in Python and CUDA—optimizing models for speed and accuracy.
 * **High-Performance Computing & Simulation:** Extensive experience with GPU-accelerated computing (CUDA/MPI) to reduce simulation times significantly, which is directly applicable to real-time forecasting and large-scale quantitative analyses.
-* **Quantitative Research & Mathematical Modeling:** Deep background in advanced mathematics allows me to formulate robust models that capture the dynamics of chaotic systems, an expertise that transfers well to quantitative finance and risk management.
+* **Quantitative Research & Mathematical Modeling:** Deep background in advanced mathematics to formulate robust models that capture the dynamics of chaotic systems, an expertise that transfers well to quantitative finance and risk management.
 
 ## SELECTED PROJECTS
 
@@ -25,7 +25,7 @@ horizontal: false
 * **Uncertainty Quantification in Limited Information Environments:** Developed [regression techniques for censored, sparsely sampled data](https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.4120D/abstract) and [applied bootstrapping](https://ui.adsabs.harvard.edu/abs/2020MNRAS.499.2934R/abstract) to robustly quantify prediction uncertainty.
 * **Feature Selection from High-Dimensional Data:** Led [research published in *Science*](https://ui.adsabs.harvard.edu/abs/2012Sci...338.1445N/abstract) that distilled dozens of variables into two key predictors, isolating the core drivers of system behavior—a crucial capability for alpha generation in quantitative finance.
 
-## APPLICATIONS
+## INDUSTRY APPLICATIONS
 
 - **Market and demand forecasting:** Expertise from black hole dynamics can predict behavior in similarly complex financial markets.
 - **Risk Assessment:** Tail risks and rare events.
