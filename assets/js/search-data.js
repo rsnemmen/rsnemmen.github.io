@@ -58,6 +58,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/key-science/";
               },
+            },{id: "dropdown-applied-research",
+              title: "applied research",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/applied/";
+              },
             },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
