@@ -2,7 +2,7 @@
 layout: page
 title: astrophysics
 permalink: /astrophysics/
-description: Current astrophysical interests.
+description: Current astrophysics research.
 nav: false
 nav_order: 5
 display_categories: [work]
@@ -28,24 +28,22 @@ Go [here for a summary of my most significant scientific discoveries](/key-scien
 ---
 
 
-## Current research topics
-
-### Numerical simulations of black hole accretion and outflows
+## Numerical simulations of black hole accretion and outflows
 
 - Winds and jets; feedback on the host galaxy
 - Radiative processes in the hot plasma near event horizons
 - Accelerated methods using NVIDIA GPUs (CUDA)
 - Ergomagnetosphere
 
-### Gamma-ray astronomy 
+## Gamma-ray astronomy 
 
 - Low-luminosity AGNs
 - Intermediate-mass black holes
 - Observatories: *Fermi* LAT, CTA
 
-### Supermassive binary black holes and electromagnetic counterparts
+## Supermassive binary black holes and electromagnetic counterparts
 
-### Machine learning
+## Machine learning
 
 - Applied methods including deep learning
 - Neural operators
