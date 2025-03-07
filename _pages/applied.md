@@ -27,7 +27,7 @@ horizontal: false
 
 ## INDUSTRY APPLICATIONS
 
-- **Market and demand forecasting:** Expertise from black hole dynamics can predict behavior in similarly complex financial markets.
+- **Market and demand forecasting:** Expertise from black hole dynamics can predict behavior in similarly complex financial markets and transportation networks.
 - **Risk Assessment:** Tail risks and rare events.
 - **Alpha Discovery:** Repurpose signal extraction methods from noisy astronomical data to identify hidden market inefficiencies.
 - **Computational Advantage:** Accelerate backtesting and simulations by orders of magnitude.
