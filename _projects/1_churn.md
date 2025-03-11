@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Customer Churn
-description: Reduced customer churn by 23% using gradient boosting classification
+description: Identify customer churn with over 90% accuracy using logistic regression
 img: assets/img/churn_prediction_thumbnail.png
 importance: 1
 category: work
@@ -9,38 +9,36 @@ category: work
 
 ## Executive Summary
 
-Horizon is a fictitious large telecommunications company operating in California. Customer churn is costing Horizon approximately 900M dollars annually in lost revenue. I developed a logistic regression model that identified at-risk customers with 🟩 95% accuracy, enabling targeted retention campaigns that reduced monthly churn from 7.2% to 5.5% — a projected $740K annual savings. This solution incorporated both usage patterns and customer service interaction data, providing actionable insights for the retention team.
+<!-- For details on the estimates, see ~/Dropbox/codes/mathematica/data science/customer churn.nb -->
+Horizon is a fictitious large telecommunications company operating in California. Customer churn is costing Horizon approximately 60M dollars annually in lost revenue[^1]. I developed a logistic regression model that identified at-risk customers with 95% accuracy, enabling targeted retention campaigns that can reduce monthly churn. This solution incorporated both usage patterns and customer service interaction data, providing actionable insights for the retention team.
 
-Reasoning behind the range given between 100M-1B is as follows. 
-10 million Californian customers
-10% churning
-12*50USD/per customer/year spent
-if my model retains 10%, this saves the company 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+     <a href="https://public.tableau.com/views/TableauEDA_17293880396620/Customerchurn?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">
+         {% include figure.liquid loading="eager" path="assets/img/tableau-churn.png" title="example image" class="img-fluid rounded z-depth-1" %}
+     </a>
+    </div>
+</div>
+<div class="caption">
+Here is the interactive Tableau dashboard I prepared illustrating the data.
+</div>
 
-(a fictitious telecommunications company)
 
 ## Business Problem
 
-<div class="row mt-3">
-    <div class="col-sm-8">
-        <p>TelecomCo was experiencing above-industry-average customer churn rates, particularly in their fiber optic service segment. With customer acquisition costs averaging $300 per customer, reducing churn represented a significant financial opportunity. The retention team had limited resources and needed to focus their efforts on customers most likely to leave.</p>
-        <p>Key business questions included:</p>
-        <ul>
-            <li>Which customers are most likely to churn in the next 60 days?</li>
-            <li>What are the primary drivers of customer churn?</li>
-            <li>How can retention offers be optimized based on customer profiles?</li>
-        </ul>
-    </div>
-    <div class="col-sm-4">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/churn_business_impact.png' | relative_url }}" alt="Chart showing churn impact on revenue"/>
-    </div>
-</div>
+Horizon was experiencing above-industry-average customer churn rates, particularly in their fiber optic service segment. Reducing churn represented a significant financial opportunity. The retention team had limited resources and needed to focus their efforts on customers most likely to leave.
+
+Key business questions include:
+
+- Which customers are most likely to churn in the next 60 days?
+- What are the primary drivers of customer churn?
+- How can retention offers be optimized based on customer profiles?
 
 ## Data & Methodology
 
-I approached this problem using a combination of customer demographic information, service usage patterns, billing history, and customer service interactions from the past 18 months.
+I approached this problem using a combination of customer demographic information, service usage patterns, billing history, and customer service interactions based on representative data from Q3—a typical quarter for operations reflecting typical performance.
 
-**Data Sources:**
+**🟩Data Sources:**
 - Customer account database (13 demographic variables)
 - Service usage logs (8 behavioral metrics)
 - Billing history (6 payment-related variables)
@@ -126,3 +124,5 @@ If I were to redo this project, I would:
 - [Jupyter Notebook: Data Exploration](https://github.com/yourusername/telecom-churn-prediction/blob/main/notebooks/1_EDA.ipynb)
 - [Jupyter Notebook: Feature Engineering](https://github.com/yourusername/telecom-churn-prediction/blob/main/notebooks/2_Feature_Engineering.ipynb)
 - [Jupyter Notebook: Modeling](https://github.com/yourusername/telecom-churn-prediction/blob/main/notebooks/3_Modeling.ipynb)
+
+[^1]: The lost revenue due to customer churn is estimated as follows, based on numbers for large telecom companies. Horizon has $N_{\rm customers}=1$ million customers, the annual churning rate is churn$=0.1$ and average revenue per user is ${\rm ARPU} = 12 \times 50 = 600$ dollars. With those numbers, the company is losing $N_{\rm customers} \times {\rm churn}=100,000$ customers per year and $N_{\rm customers} \times {\rm churn} \times {\rm ARPU} = 6 \times 10^7$ dollars in annual revenue.
