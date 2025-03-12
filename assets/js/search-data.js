@@ -83,21 +83,11 @@ ninja.data = [{
             },},{id: "news-astrophysics-distinguished-seminar-at-los-alamos-national-laboratory",
           title: 'Astrophysics Distinguished Seminar at Los Alamos National Laboratory🌵',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-customer-churn",
+          section: "News",},{id: "projects-customer-churn",
           title: 'Customer Churn',
-          description: "Reduced customer churn by 23% using gradient boosting classification",
+          description: "Identify customer churn with over 90% accuracy using logistic regression",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_churn/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
+              window.location.href = "/projects/1_churn/";
             },},{
         id: 'social-email',
         title: 'email',
