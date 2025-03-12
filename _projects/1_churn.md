@@ -9,7 +9,10 @@ category: work
 
 ## Executive Summary
 
-<!-- For details on the estimates, see ~/Dropbox/codes/mathematica/data science/customer churn.nb -->
+<!-- 
+Data and analysis: Dropbox/codes/jupyter/data-science/kaggle/telco-customer-churn
+Order-of-magnitude telecom estimates: /Dropbox/codes/mathematica/data science/customer churn.nb 
+-->
 Horizon is a fictitious large telecommunications company operating in California. Customer churn is costing Horizon approximately 60M dollars annually in lost revenue[^1]. I developed a logistic regression model that identified at-risk customers with 95% accuracy, enabling targeted retention campaigns that can reduce monthly churn. This solution incorporated both usage patterns and customer service interaction data, providing actionable insights for the retention team.
 
 <div class="row">
@@ -20,8 +23,10 @@ Horizon is a fictitious large telecommunications company operating in California
     </div>
 </div>
 <div class="caption">
-Here is the interactive Tableau dashboard I prepared illustrating the data.
+Interactive Tableau dashboard illustrating the data.
 </div>
+
+
 
 
 ## Business Problem
@@ -34,66 +39,69 @@ Key business questions include:
 - What are the primary drivers of customer churn?
 - How can retention offers be optimized based on customer profiles?
 
+
+
+
 ## Data & Methodology
 
 I approached this problem using a combination of customer demographic information, service usage patterns, billing history, and customer service interactions based on representative data from Q3—a typical quarter for operations reflecting typical performance.
 
-**🟩Data Sources:**
-- Customer account database (13 demographic variables)
-- Service usage logs (8 behavioral metrics)
-- Billing history (6 payment-related variables)
-- Call center interaction records (4 satisfaction metrics)
+#### Data Sources
 
-**Methodology:**
-1. **Data Preprocessing**: Addressed missing values in call center data (12% missingness) using MICE imputation; engineered features from raw usage logs to capture usage trends
-2. **Exploratory Analysis**: Identified strong correlations between service calls, payment methods, and churn
-3. **Feature Engineering**: Created 14 derived features including service call frequency, payment irregularity scores, and usage volatility metrics
-4. **Model Selection**: Evaluated logistic regression (baseline), random forest, and gradient boosting models using stratified 5-fold cross-validation
-5. **Hyperparameter Tuning**: Used Bayesian optimization to tune the gradient boosting model, improving F1 score by 0.07
+- Customer account and services (27 variables including payment, plans and behavioral)
+- Customer location (5 variables)
+- Customer churn status (satisfaction metrics)
+
+Data for a fictional company for Q3, with numbers taken to be representative of the California business. [Source.](https://accelerator.ca.analytics.ibm.com/bi/?perspective=authoring&pathRef=.public_folders%2FIBM%2BAccelerator%2BCatalog%2FContent%2FDAT00148&id=i9710CF25EF75468D95FFFC7D57D45204&objRef=i9710CF25EF75468D95FFFC7D57D45204&action=run&format=HTML&cmPropStr=%7B%22id%22%3A%22i9710CF25EF75468D95FFFC7D57D45204%22%2C%22type%22%3A%22reportView%22%2C%22defaultName%22%3A%22DAT00148%22%2C%22permissions%22%3A%5B%22execute%22%2C%22read%22%2C%22traverse%22%5D%7D)
+
+#### Methodology
+
+1. **Data Preprocessing**: Converted 10 categorical features using ordinal encoder.
+1. **Exploratory Analysis**: Identified where churn is concentrated and strong correlations between number of referrals, type of contract, monthly charge and churn.
+<!--2. **Feature Engineering**: Created 14 derived features including service call frequency, payment irregularity scores, and usage volatility metrics-->
+3. **Model Selection**: Evaluated logistic regression (baseline), random forest, and gradient boosting models on validation set.
+<!--4. **Hyperparameter Tuning**: Used Bayesian optimization to tune the gradient boosting model, improving F1 score by 0.07-->
+
+
+
+
 
 ## Key Insights & Findings
 
-<div class="row">
-    <div class="col-sm-6">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/feature_importance.png' | relative_url }}" alt="Feature importance chart"/>
-    </div>
-    <div class="col-sm-6">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/churn_segments.png' | relative_url }}" alt="Customer segment analysis"/>
-    </div>
-</div>
-
 The analysis revealed several unexpected insights that contradicted initial business assumptions:
 
-1. **Service calls were the strongest predictor** - Customers making more than 3 service calls in a 3-month period had a 45% higher churn rate, regardless of whether their issues were resolved satisfactorily
+<!--TODO: quantify the impact of charge, e.g. 10% larger bill => 45% higher churn rate-->
 
-2. **Contract type was less important than payment method** - While month-to-month contracts did show higher churn, automatic payment enrollment was a stronger retention indicator (27% less likely to churn)
+1. **Monthly charge was the strongest predictor**: Customers with larger monthly bills are more likely to churn. This suggests retention strategies targeted at customers with larger bills.
 
-3. **Price sensitivity varied significantly by usage profile** - High-data users were remarkably price-insensitive compared to moderate users, suggesting different retention strategies were needed for different segments
+2. **Referrals and tenure are the strongest predictor that customer will stay**.
 
-4. **Recent service upgrades increased churn risk** - Customers who upgraded service tiers within 60 days showed 38% higher churn probability, indicating possible expectation mismatches
+3. **Customers appreciate the online security package**, much more than online backup and streaming service. Customers with online security plans are 70% less likely to churn.
+
+4. **New competitor strongly correlated with churn**: This is particularly apparent in San Diego.
+
+
+
+
 
 ## Solution & Implementation
 
-The final gradient boosting model achieved:
-- 89% accuracy on holdout test data
+The final logistic regression model achieved 95% accuracy on validation data.
+
+<!-- 
 - 0.83 F1 score (balancing precision and recall)
 - 0.91 AUC-ROC score
+-->
 
-<div class="row mt-3">
-    <div class="col-sm-8">
-        <p>To make this actionable for the business, I:</p>
-        <ol>
-            <li>Developed a weekly automated pipeline to score all customers on churn probability</li>
-            <li>Created customer segments based on churn drivers, enabling targeted retention strategies</li>
-            <li>Built a Tableau dashboard for the retention team that prioritized outreach and recommended retention offers based on customer profiles</li>
-            <li>Implemented an A/B testing framework to continuously measure retention campaign effectiveness</li>
-        </ol>
-    </div>
-    <div class="col-sm-4">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/model_performance.png' | relative_url }}" alt="Model performance metrics"/>
-    </div>
-</div>
+To make this actionable for the business, I could:
+- Develop a weekly automated pipeline to score all customers on churn probability.
+- Create customer segments based on churn drivers, enabling targeted retention strategies.
+- Build a Tableau dashboard for the retention team to prioritize outreach and recommended retention offers based on customer profiles
+- Implement an A/B testing framework to continuously measure retention campaign effectiveness
 
+
+
+<!--
 ## Business Impact
 
 After 4 months of implementation:
@@ -103,8 +111,9 @@ After 4 months of implementation:
 - **18% decrease** in retention discount amounts needed to retain customers
 - Projected **$740K annual savings** based on reduced customer acquisition needs
 - **2.8X ROI** on retention program costs
+-->
 
-## Lessons & Reflections
+## Lessons 
 
 This project highlighted several important learnings:
 
