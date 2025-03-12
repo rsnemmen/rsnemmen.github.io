@@ -133,9 +133,9 @@ If I were to redo this project, I would:
 
 ## Technical Resources
 
-- [Complete Project Repository](https://github.com/yourusername/telecom-churn-prediction)
+- [Project Repository](https://github.com/rsnemmen/telco-churn)
 - [Interactive Tableau Dashboard](https://public.tableau.com/views/TableauEDA_17293880396620/Customerchurn?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-- [Jupyter Notebook: Data Exploration](https://github.com/yourusername/telecom-churn-prediction/blob/main/notebooks/1_EDA.ipynb)
-- [Jupyter Notebook: Modeling](https://github.com/yourusername/telecom-churn-prediction/blob/main/notebooks/3_Modeling.ipynb)
+- [Jupyter Notebook: Data Exploration](https://github.com/rsnemmen/telco-churn/blob/9991af96ae1d4642492b24a26881089559a9ffb4/notebooks/eda.ipynb)
+- [Jupyter Notebook: Modeling](https://github.com/rsnemmen/telco-churn/blob/9991af96ae1d4642492b24a26881089559a9ffb4/notebooks/model.ipynb)
 
 [^1]: The lost revenue due to customer churn is estimated as follows, based on numbers for large telecom companies. Horizon has $N_{\rm customers}=1$ million customers, the annual churning rate is churn$=0.1$ and average revenue per user is ${\rm ARPU} = 12 \times 50 = 600$ dollars. With those numbers, the company is losing $N_{\rm customers} \times {\rm churn}=100,000$ customers per year and $N_{\rm customers} \times {\rm churn} \times {\rm ARPU} = 6 \times 10^7$ dollars in annual revenue.
