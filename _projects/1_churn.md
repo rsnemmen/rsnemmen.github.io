@@ -2,7 +2,7 @@
 layout: page
 title: Customer Churn
 description: Identify customer churn with over 90% accuracy using logistic regression
-img: assets/img/churn_prediction_thumbnail.png
+img: assets/img/churn-cover.jpg
 importance: 1
 category: work
 ---
@@ -70,7 +70,11 @@ Data for a fictional company for Q3, with numbers taken to be representative of 
 
 The analysis revealed several unexpected insights that contradicted initial business assumptions:
 
-<!--TODO: quantify the impact of charge, e.g. 10% larger bill => 45% higher churn rate-->
+<!--
+TODO: quantify the impact of charge, e.g. 10% larger bill => 45% higher churn rate
+
+70% below: odds ratio exp(beta) given beta=-1.4 for corresponding feature
+-->
 
 1. **Monthly charge was the strongest predictor**: Customers with larger monthly bills are more likely to churn. This suggests retention strategies targeted at customers with larger bills.
 
@@ -111,7 +115,7 @@ After 4 months of implementation:
 - **18% decrease** in retention discount amounts needed to retain customers
 - Projected **$740K annual savings** based on reduced customer acquisition needs
 - **2.8X ROI** on retention program costs
--->
+
 
 ## Lessons 
 
@@ -125,13 +129,13 @@ If I were to redo this project, I would:
 1. Incorporate NLP analysis of customer service transcripts earlier
 2. Develop separate models for different customer segments
 3. Include more granular competitor promotional data as external features
+-->
 
 ## Technical Resources
 
 - [Complete Project Repository](https://github.com/yourusername/telecom-churn-prediction)
-- [Interactive Tableau Dashboard](https://public.tableau.com/app/profile/yourusername/viz/TelecomChurnAnalysis)
+- [Interactive Tableau Dashboard](https://public.tableau.com/views/TableauEDA_17293880396620/Customerchurn?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 - [Jupyter Notebook: Data Exploration](https://github.com/yourusername/telecom-churn-prediction/blob/main/notebooks/1_EDA.ipynb)
-- [Jupyter Notebook: Feature Engineering](https://github.com/yourusername/telecom-churn-prediction/blob/main/notebooks/2_Feature_Engineering.ipynb)
 - [Jupyter Notebook: Modeling](https://github.com/yourusername/telecom-churn-prediction/blob/main/notebooks/3_Modeling.ipynb)
 
 [^1]: The lost revenue due to customer churn is estimated as follows, based on numbers for large telecom companies. Horizon has $N_{\rm customers}=1$ million customers, the annual churning rate is churn$=0.1$ and average revenue per user is ${\rm ARPU} = 12 \times 50 = 600$ dollars. With those numbers, the company is losing $N_{\rm customers} \times {\rm churn}=100,000$ customers per year and $N_{\rm customers} \times {\rm churn} \times {\rm ARPU} = 6 \times 10^7$ dollars in annual revenue.
