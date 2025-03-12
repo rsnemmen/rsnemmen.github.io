@@ -7,13 +7,30 @@ importance: 1
 category: work
 ---
 
-## Executive Summary
+
+<div class="alert alert-info"><h4>Executive Summary</h4><p>
+Horizon is a fictitious large telecommunications company operating in California. Customer churn is costing Horizon approximately 60M dollars annually in lost revenue. I developed a logistic regression model that identified at-risk customers with 95% accuracy, enabling targeted retention campaigns that can reduce monthly churn. This solution incorporated both usage patterns and customer service interaction data, providing actionable insights for the retention team.
+</p></div>
 
 <!-- 
 Data and analysis: Dropbox/codes/jupyter/data-science/kaggle/telco-customer-churn
 Order-of-magnitude telecom estimates: /Dropbox/codes/mathematica/data science/customer churn.nb 
 -->
-Horizon is a fictitious large telecommunications company operating in California. Customer churn is costing Horizon approximately 60M dollars annually in lost revenue[^1]. I developed a logistic regression model that identified at-risk customers with 95% accuracy, enabling targeted retention campaigns that can reduce monthly churn. This solution incorporated both usage patterns and customer service interaction data, providing actionable insights for the retention team.
+
+
+
+
+## Business Problem
+
+Horizon was experiencing above-industry-average customer churn rates[^1], particularly in their fiber optic service segment. Reducing churn represented a significant financial opportunity. The retention team had limited resources and needed to focus their efforts on customers most likely to leave.
+
+Key business questions include:
+
+- Which customers are most likely to churn in the next 60 days?
+- What are the primary drivers of customer churn?
+- How can retention offers be optimized based on customer profiles?
+
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -25,19 +42,6 @@ Horizon is a fictitious large telecommunications company operating in California
 <div class="caption">
 Interactive Tableau dashboard illustrating the data.
 </div>
-
-
-
-
-## Business Problem
-
-Horizon was experiencing above-industry-average customer churn rates, particularly in their fiber optic service segment. Reducing churn represented a significant financial opportunity. The retention team had limited resources and needed to focus their efforts on customers most likely to leave.
-
-Key business questions include:
-
-- Which customers are most likely to churn in the next 60 days?
-- What are the primary drivers of customer churn?
-- How can retention offers be optimized based on customer profiles?
 
 
 
@@ -138,4 +142,4 @@ If I were to redo this project, I would:
 - [Jupyter Notebook: Data Exploration](https://github.com/rsnemmen/telco-churn/blob/9991af96ae1d4642492b24a26881089559a9ffb4/notebooks/eda.ipynb)
 - [Jupyter Notebook: Modeling](https://github.com/rsnemmen/telco-churn/blob/9991af96ae1d4642492b24a26881089559a9ffb4/notebooks/model.ipynb)
 
-[^1]: The lost revenue due to customer churn is estimated as follows, based on numbers for large telecom companies. Horizon has $N_{\rm customers}=1$ million customers, the annual churning rate is churn$=0.1$ and average revenue per user is ${\rm ARPU} = 12 \times 50 = 600$ dollars. With those numbers, the company is losing $N_{\rm customers} \times {\rm churn}=100,000$ customers per year and $N_{\rm customers} \times {\rm churn} \times {\rm ARPU} = 6 \times 10^7$ dollars in annual revenue.
+[^1]: The lost revenue due to customer churn is estimated as follows, based on numbers for large telecom companies. Horizon has $N_{\rm customers}=1$ million customers in California, the annual churning rate is churn$=0.1$ and average revenue per user is ${\rm ARPU} = 12 \times 50 = 600$ dollars. With those numbers, the company is losing $N_{\rm customers} \times {\rm churn}=100,000$ customers per year and $N_{\rm customers} \times {\rm churn} \times {\rm ARPU} = 6 \times 10^7$ dollars in annual revenue.
