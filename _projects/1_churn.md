@@ -35,7 +35,7 @@ Key business questions include:
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
      <a href="https://public.tableau.com/views/TableauEDA_17293880396620/Customerchurn?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">
-         {% include figure.liquid loading="eager" path="assets/img/tableau-churn.png" title="example image" class="img-fluid rounded z-depth-1" %}
+         {% include figure.liquid loading="eager" path="assets/img/churn-tableau.png" title="example image" class="img-fluid rounded z-depth-1" %}
      </a>
     </div>
 </div>
