@@ -88,6 +88,11 @@ ninja.data = [{
           description: "Identify customer churn with over 90% accuracy using logistic regression",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_churn/";
+            },},{id: "projects-sales-forecasting",
+          title: 'Sales forecasting',
+          description: "TBD",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_sales_forecasting/";
             },},{
         id: 'social-email',
         title: 'email',
