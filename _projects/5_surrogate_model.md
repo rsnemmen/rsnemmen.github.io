@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Sales forecasting
+title: Fast surrogate models
 description: TBD
-img: assets/img/forecasting-cover.jpg
+img: assets/img/surrogate_model-cover.jpg
 importance: 1
 category: work
 ---

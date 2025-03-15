@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Sales forecasting
+title: PicoGPT—A really tiny LLM
 description: TBD
-img: assets/img/forecasting-cover.jpg
+img: assets/img/picoGPT-cover.jpeg
 importance: 1
 category: work
 ---

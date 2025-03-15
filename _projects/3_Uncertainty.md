@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Sales forecasting
+title: Uncertainty Modeling
 description: TBD
-img: assets/img/forecasting-cover.jpg
+img: assets/img/uncertainty-cover.jpg
 importance: 1
 category: work
 ---

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Sales forecasting
+title: GenAI with Diffusion
 description: TBD
-img: assets/img/forecasting-cover.jpg
+img: assets/img/diffusion-cover.jpg
 importance: 1
 category: work
 ---
