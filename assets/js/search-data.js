@@ -85,7 +85,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-customer-churn",
           title: 'Customer Churn',
-          description: "Identify customer churn with over 90% accuracy using logistic regression",
+          description: "Identify customer churn with over 80% accuracy using logistic regression",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_churn/";
             },},{id: "projects-sales-forecasting",
