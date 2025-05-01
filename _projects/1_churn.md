@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Customer Churn
-description: Identify customer churn with over 90% accuracy using logistic regression
+description: Identify customer churn with over 80% accuracy using logistic regression
 img: assets/img/churn-cover.jpg
 importance: 1
 category: work
@@ -9,7 +9,7 @@ category: work
 
 
 <div class="alert alert-info"><h4>Executive Summary</h4><p>
-Horizon is a fictitious large telecommunications company operating in California. Customer churn is costing Horizon approximately 60M dollars annually in lost revenue. I developed a logistic regression model that identified at-risk customers with 95% accuracy, enabling targeted retention campaigns that can reduce monthly churn. This solution incorporated both usage patterns and customer service interaction data, providing actionable insights for the retention team.
+Horizon is a fictitious large telecommunications company operating in California. Customer churn is costing Horizon approximately 60M dollars annually in lost revenue. I developed a XGBoost model that identified at-risk customers with 83% accuracy, enabling targeted retention campaigns that can reduce monthly churn. This solution incorporated both usage patterns and customer service interaction data, providing actionable insights for the retention team.
 </p></div>
 
 <!-- 
@@ -94,7 +94,7 @@ TODO: quantify the impact of charge, e.g. 10% larger bill => 45% higher churn ra
 
 ## Solution & Implementation
 
-The final logistic regression model achieved 95% accuracy on validation data.
+The final XGBoost model achieved 83% accuracy on validation data.
 
 <!-- 
 - 0.83 F1 score (balancing precision and recall)
