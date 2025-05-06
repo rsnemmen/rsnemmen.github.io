@@ -85,34 +85,14 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-customer-churn",
           title: 'Customer Churn',
-          description: "Identify customer churn with over 80% accuracy using logistic regression",
+          description: "Identify customer churn with over 80% accuracy using XGBoost",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_churn/";
-            },},{id: "projects-sales-forecasting",
-          title: 'Sales forecasting',
-          description: "TBD",
+            },},{id: "projects-deployment-with-fastapi-docker",
+          title: 'Deployment with FastAPI, Docker',
+          description: "Serve and containerize ML models, ready for the cloud (GCP, AWS)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_sales_forecasting/";
-            },},{id: "projects-uncertainty-modeling",
-          title: 'Uncertainty Modeling',
-          description: "TBD",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_Uncertainty/";
-            },},{id: "projects-picogpt-a-really-tiny-llm",
-          title: 'PicoGPT—A really tiny LLM',
-          description: "TBD",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_picoGPT/";
-            },},{id: "projects-fast-surrogate-models",
-          title: 'Fast surrogate models',
-          description: "TBD",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_surrogate_model/";
-            },},{id: "projects-genai-with-diffusion",
-          title: 'GenAI with Diffusion',
-          description: "TBD",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_diffusion/";
+              window.location.href = "/projects/2_deploy/";
             },},{
         id: 'social-email',
         title: 'email',
