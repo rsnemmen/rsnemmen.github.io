@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Customer Churn
-description: Identify customer churn with over 80% accuracy using logistic regression
+description: Identify customer churn with over 80% accuracy using XGBoost
 img: assets/img/churn-cover.jpg
 importance: 1
 category: work

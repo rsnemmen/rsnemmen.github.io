@@ -1,15 +1,21 @@
 ---
 layout: page
-title: PicoGPT—A really tiny LLM
-description: TBD
-img: assets/img/picoGPT-cover.jpeg
+title: Deployment with FastAPI, Docker
+description: Serve and containerize ML models, ready for the cloud (GCP, AWS)
+img: assets/img/forecasting-cover.jpg
 importance: 1
 category: work
 ---
 
 
 <div class="alert alert-info"><h4>Executive Summary</h4><p>
-Horizon is a fictitious large telecommunications company operating in California. Customer churn is costing Horizon approximately 60M dollars annually in lost revenue. I developed a logistic regression model that identified at-risk customers with 95% accuracy, enabling targeted retention campaigns that can reduce monthly churn. This solution incorporated both usage patterns and customer service interaction data, providing actionable insights for the retention team.
+The ability to **operationalize** a machine-learning model is just as important as the
+model itself.  
+In this mini-project I demonstrate how a trained XGBoost classifier
+(taken from my <em>Customer Churn</em> case study) can be
+(1) wrapped behind a production-ready FastAPI service,
+(2) containerized with Docker, and
+(3) shipped to Google Cloud Run with a single command.
 </p></div>
 
 <!-- 
