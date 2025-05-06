@@ -2,7 +2,7 @@
 layout: page
 title: Deployment with FastAPI, Docker
 description: Serve and containerize ML models, ready for the cloud (GCP, AWS)
-img: assets/img/forecasting-cover.jpg
+img: assets/img/Deploy_cover.png
 importance: 1
 category: work
 ---
