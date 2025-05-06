@@ -9,143 +9,55 @@ category: work
 
 
 <div class="alert alert-info"><h4>Executive Summary</h4><p>
-The ability to **operationalize** a machine-learning model is just as important as the
-model itself.  
-In this mini-project I demonstrate how a trained XGBoost classifier
-(taken from my <em>Customer Churn</em> case study) can be
-(1) wrapped behind a production-ready FastAPI service,
-(2) containerized with Docker, and
-(3) shipped to Google Cloud Run with a single command.
+The ability to operationalize a machine-learning model is just as important as the
+model itself. In this mini-project I demonstrate how a trained XGBoost classifier
+(taken from my <a href="https://rsnemmen.github.io/projects/1_churn/">Customer Churn</a> case study) can be
+(1) wrapped behind a FastAPI service and (2) containerized with Docker, ready to be shipped to Google Cloud.
 </p></div>
 
-<!-- 
-Data and analysis: Dropbox/codes/jupyter/data-science/kaggle/telco-customer-churn
-Order-of-magnitude telecom estimates: /Dropbox/codes/mathematica/data science/customer churn.nb 
--->
+
+> “A model that never leaves the notebook never creates value.”
+
+---
 
 
+## Architecture Overview
+
+- *FastAPI* provides the `/predict` endpoint and auto-generated docs
+- *Docker* ensures identical runtime environments  
+- *Cloud Run* offers zero-ops serverless hosting on Google Cloud
 
 
-## Business Problem
+## Repositories
 
-Horizon was experiencing above-industry-average customer churn rates[^1], particularly in their fiber optic service segment. Reducing churn represented a significant financial opportunity. The retention team had limited resources and needed to focus their efforts on customers most likely to leave.
+#### 1. Building the FastAPI micro-service
 
-Key business questions include:
-
-- Which customers are most likely to churn in the next 60 days?
-- What are the primary drivers of customer churn?
-- How can retention offers be optimized based on customer profiles?
+[This repository](https://github.com/rsnemmen/fastapi-model) contains all code and instructions on how to serve the API locally. It serves a pre-trained customer churn XGBoost model and provides a `/predict` endpoint for making predictions. It uses Pydantic for request data validation.
 
 
+#### 2. Containerization with Docker
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-     <a href="https://public.tableau.com/views/TableauEDA_17293880396620/Customerchurn?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">
-         {% include figure.liquid loading="eager" path="assets/img/churn-tableau.png" title="example image" class="img-fluid rounded z-depth-1" %}
-     </a>
-    </div>
-</div>
-<div class="caption">
-Interactive Tableau dashboard illustrating the data.
-</div>
+[This repository](https://github.com/rsnemmen/docker-local-deploy) packages the previous application (the customer churn API) into a Docker image, ready to be shipped to the cloud (e.g. Google Cloud, AWS). 
 
+#### 3. Google Cloud deployment
 
+This model is currently being served on Google Cloud Cloud Run, and [can be accessed here](https://churn-model-j5c2fjobrq-wl.a.run.app). 
 
+## Key Takeaways
 
-## Data & Methodology
+1. **Reproducibility**  
+   A single source of truth (`Dockerfile`) recreates the environment byte-for-byte.
 
-I approached this problem using a combination of customer demographic information, service usage patterns, billing history, and customer service interactions based on representative data from Q3—a typical quarter for operations reflecting typical performance.
+2. **Cloud portability**  
+   Although demonstrated on Google Cloud Run, the same container
+   can be deployed to AWS, Azure, or on-prem K8s.
 
-#### Data Sources
-
-- Customer account and services (27 variables including payment, plans and behavioral)
-- Customer location (5 variables)
-- Customer churn status (satisfaction metrics)
-
-Data for a fictional company for Q3, with numbers taken to be representative of the California business. [Source.](https://accelerator.ca.analytics.ibm.com/bi/?perspective=authoring&pathRef=.public_folders%2FIBM%2BAccelerator%2BCatalog%2FContent%2FDAT00148&id=i9710CF25EF75468D95FFFC7D57D45204&objRef=i9710CF25EF75468D95FFFC7D57D45204&action=run&format=HTML&cmPropStr=%7B%22id%22%3A%22i9710CF25EF75468D95FFFC7D57D45204%22%2C%22type%22%3A%22reportView%22%2C%22defaultName%22%3A%22DAT00148%22%2C%22permissions%22%3A%5B%22execute%22%2C%22read%22%2C%22traverse%22%5D%7D)
-
-#### Methodology
-
-1. **Data Preprocessing**: Converted 10 categorical features using ordinal encoder.
-1. **Exploratory Analysis**: Identified where churn is concentrated and strong correlations between number of referrals, type of contract, monthly charge and churn.
-<!--2. **Feature Engineering**: Created 14 derived features including service call frequency, payment irregularity scores, and usage volatility metrics-->
-3. **Model Selection**: Evaluated logistic regression (baseline), random forest, and gradient boosting models on validation set.
-<!--4. **Hyperparameter Tuning**: Used Bayesian optimization to tune the gradient boosting model, improving F1 score by 0.07-->
+4. **Framework agnostic**  
+   These methods can be applied to other ML frameworks (PyTorch, TensorFlow).
 
 
+## Next steps
 
-
-
-## Key Insights & Findings
-
-The analysis revealed several unexpected insights that contradicted initial business assumptions:
-
-<!--
-TODO: quantify the impact of charge, e.g. 10% larger bill => 45% higher churn rate
-
-70% below: odds ratio exp(beta) given beta=-1.4 for corresponding feature
--->
-
-1. **Monthly charge was the strongest predictor**: Customers with larger monthly bills are more likely to churn. This suggests retention strategies targeted at customers with larger bills.
-
-2. **Referrals and tenure are the strongest predictor that customer will stay**.
-
-3. **Customers appreciate the online security package**, much more than online backup and streaming service. Customers with online security plans are 70% less likely to churn.
-
-4. **New competitor strongly correlated with churn**: This is particularly apparent in San Diego.
-
-
-
-
-
-## Solution & Implementation
-
-The final logistic regression model achieved 95% accuracy on validation data.
-
-<!-- 
-- 0.83 F1 score (balancing precision and recall)
-- 0.91 AUC-ROC score
--->
-
-To make this actionable for the business, I could:
-- Develop a weekly automated pipeline to score all customers on churn probability.
-- Create customer segments based on churn drivers, enabling targeted retention strategies.
-- Build a Tableau dashboard for the retention team to prioritize outreach and recommended retention offers based on customer profiles
-- Implement an A/B testing framework to continuously measure retention campaign effectiveness
-
-
-
-<!--
-## Business Impact
-
-After 4 months of implementation:
-
-- **23% reduction** in overall churn rate (from 7.2% to 5.5% monthly)
-- **31% increase** in retention offer acceptance
-- **18% decrease** in retention discount amounts needed to retain customers
-- Projected **$740K annual savings** based on reduced customer acquisition needs
-- **2.8X ROI** on retention program costs
-
-
-## Lessons 
-
-This project highlighted several important learnings:
-
-- The significance of combining structured and unstructured data sources (especially call center notes)
-- The challenge of balancing recall (finding all potential churners) vs. precision (avoiding unnecessary retention costs)
-- The value of domain expertise in feature engineering, which provided more predictive power than more complex model architectures
-
-If I were to redo this project, I would:
-1. Incorporate NLP analysis of customer service transcripts earlier
-2. Develop separate models for different customer segments
-3. Include more granular competitor promotional data as external features
--->
-
-## Technical Resources
-
-- [Project Repository](https://github.com/rsnemmen/telco-churn)
-- [Interactive Tableau Dashboard](https://public.tableau.com/views/TableauEDA_17293880396620/Customerchurn?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-- [Jupyter Notebook: Data Exploration](https://github.com/rsnemmen/telco-churn/blob/9991af96ae1d4642492b24a26881089559a9ffb4/notebooks/eda.ipynb)
-- [Jupyter Notebook: Modeling](https://github.com/rsnemmen/telco-churn/blob/9991af96ae1d4642492b24a26881089559a9ffb4/notebooks/model.ipynb)
-
-[^1]: The lost revenue due to customer churn is estimated as follows, based on numbers for large telecom companies. Horizon has $N_{\rm customers}=1$ million customers in California, the annual churning rate is churn$=0.1$ and average revenue per user is ${\rm ARPU} = 12 \times 50 = 600$ dollars. With those numbers, the company is losing $N_{\rm customers} \times {\rm churn}=100,000$ customers per year and $N_{\rm customers} \times {\rm churn} \times {\rm ARPU} = 6 \times 10^7$ dollars in annual revenue.
+- [ ] Deploy the same model using a managed platform like SageMaker, Vertex AI, or Azure ML endpoints.
+- [ ] Add basic monitoring (logging predictions)
+- [ ] Set up CI/CD pipeline using GitHub Actions to rebuild/redeploy the container on code changes.
