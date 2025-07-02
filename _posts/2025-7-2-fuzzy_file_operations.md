@@ -51,4 +51,8 @@ After asking for the user's confirmation and showing a list of the bestCopy only
     {% include figure.liquid loading="eager" path="assets/img/fuzzycp.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 
+Internally, fuzzycp compares the names using the `QRatio`(Quick Ratio) scorer, which uses a simple Levenshtein-based percentage after basic lowercase/whitespace cleaning. This is the fastest scorer in RapidFuzz, useful for quick filters or typo-level comparisons. More sophisticated scorer can easily be implemented.
+
+## Get fuzzycp today!
+
 fuzzycp is [available on Github](https://github.com/rsnemmen/fuzzy_cp).
