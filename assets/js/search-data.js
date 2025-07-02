@@ -65,7 +65,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/applied/";
               },
-            },{id: "post-model-deployment-with-fastapi-and-docker",
+            },{id: "post-fuzzy-file-operations-with-fuzzycp",
+      
+        title: "Fuzzy file operations with fuzzycp",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/fuzzy_file_operations/";
+        
+      },
+    },{id: "post-model-deployment-with-fastapi-and-docker",
       
         title: "Model deployment with FastAPI and Docker",
       
