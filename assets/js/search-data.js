@@ -65,7 +65,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/applied/";
               },
-            },{id: "books-the-godfather",
+            },{id: "post-model-deployment-with-fastapi-and-docker",
+      
+        title: "Model deployment with FastAPI and Docker",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/deploy/";
+        
+      },
+    },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
