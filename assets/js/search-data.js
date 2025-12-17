@@ -116,7 +116,17 @@ ninja.data = [{
             },},{id: "news-astrophysics-distinguished-seminar-at-los-alamos-national-laboratory",
           title: 'Astrophysics Distinguished Seminar at Los Alamos National Laboratory🌵',
           description: "",
-          section: "News",},{id: "news-invited-review-talk-at-agn-redemption-conference-zihuatanejo",
+          section: "News",},{id: "news-plenary-talk-annual-meeting-of-brazilian-astronomical-society",
+          title: 'Plenary talk, Annual Meeting of Brazilian Astronomical Society',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-10-2-SAB/";
+            },},{id: "news-invited-colloquium-hawking-meets-hinton-fundamental-physics-school-unesp",
+          title: 'Invited colloquium: Hawking meets Hinton, Fundamental Physics School, UNESP',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-10-21-guara/";
+            },},{id: "news-invited-review-talk-at-agn-redemption-conference-zihuatanejo",
           title: 'Invited review talk at AGN Redemption conference, Zihuatanejo.',
           description: "",
           section: "News",},{id: "projects-customer-churn",
