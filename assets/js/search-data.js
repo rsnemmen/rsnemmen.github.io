@@ -65,7 +65,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/applied/";
               },
-            },{id: "post-fuzzy-file-operations-with-fuzzycp",
+            },{id: "post-agn-jets-review-talk-at-zihuatanejo",
+      
+        title: 'AGN jets review talk at Zihuatanejo <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://nemmen.bearblog.dev/agn-jets-review-talk-at-zihuatanejo/", "_blank");
+        
+      },
+    },{id: "post-fuzzy-file-operations-with-fuzzycp",
       
         title: "Fuzzy file operations with fuzzycp",
       
@@ -104,6 +115,9 @@ ninja.data = [{
               window.location.href = "/news/2024-10-29-data-seminar-nersc/";
             },},{id: "news-astrophysics-distinguished-seminar-at-los-alamos-national-laboratory",
           title: 'Astrophysics Distinguished Seminar at Los Alamos National Laboratory🌵',
+          description: "",
+          section: "News",},{id: "news-invited-review-talk-at-agn-redemption-conference-zihuatanejo",
+          title: 'Invited review talk at AGN Redemption conference, Zihuatanejo.',
           description: "",
           section: "News",},{id: "projects-customer-churn",
           title: 'Customer Churn',
