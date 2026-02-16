@@ -12,7 +12,7 @@ horizontal: false
 
 
 
-Below is a summary of Dr. Nemmen's most significant scientific discoveries, written in a way that is accessible to everyone, regardless of their background in astrophysics. These descriptions should help lay people understand how his work is advancing our knowledge of black holes.
+Below is a summary of Dr. Nemmen's most significant scientific discoveries, written in a way that is accessible to everyone, regardless of their background in astrophysics. These descriptions should help lay people understand how his work is advancing our knowledge of black holes. 
 
 ## Black Holes of all sizes produce energy jets in the same way 
 
