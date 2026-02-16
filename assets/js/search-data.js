@@ -65,7 +65,40 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/applied/";
               },
-            },{id: "post-the-state-of-agentic-coding",
+            },{id: "post-introducing-gpumonty-simulating-black-hole-light-with-gpus",
+      
+        title: 'Introducing GPUmonty: Simulating Black Hole Light with GPUs <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://nemmen.bearblog.dev/introducing-gpumonty-simulating-black-hole-light-with-gpus/", "_blank");
+        
+      },
+    },{id: "post-you-are-probably-overpaying-for-intelligence",
+      
+        title: 'You are probably overpaying for intelligence <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://residuals.bearblog.dev/you-are-probably-overpaying-for-intelligence/", "_blank");
+        
+      },
+    },{id: "post-pip-select-an-interactive-tool-for-updating-pip-installed-python-packages-conda-friendly",
+      
+        title: 'pip-select, an interactive tool for updating pip-installed python packages (conda-friendly) <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://residuals.bearblog.dev/pip-select-an-interactive-tool-for-updating-pip-installed-python-packages-conda-friendly/", "_blank");
+        
+      },
+    },{id: "post-the-state-of-agentic-coding",
       
         title: 'The state of agentic coding <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       

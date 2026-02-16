@@ -1,0 +1,13 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"> <html><body> <p>I was tired of manually figuring out which of my pip-installed packages need to be updated while excluding the conda ones, so I just created a tool that takes care of this. You fire <code>pip-select</code>, and it will check which of your pip packages can be updated while excluding the ones managed by conda, with a nice progress bar:</p> <div class="highlight"><pre><span></span>Conda environment detected at: /home/user/miniconda3/envs/myenv
+Detected 84 pip-installed packages (excluded 141 conda-installed).
+Checking 84 packages [████████████████████████████░░] 87%   
+</pre></div> <p>It will present a menu where you can select which packages to update:</p> <div class="highlight"><pre><span></span>SPACE=toggle  ↑/↓/PgUp/PgDn=move  Home/End=jump  a=all  n=none  Enter=upg  q=quit  Selected: 3/84
+[ ] aiohttp                         3.13.2       -&gt; 3.13.3      
+[ ] beartype                        0.14.1       -&gt; 0.22.9      
+[x] datasets                        4.4.2        -&gt; 4.5.0       
+[ ] dill                            0.4.0        -&gt; 0.4.1       
+[ ] dol                             0.3.37       -&gt; 0.3.38      
+[x] numpy                           1.24.0       -&gt; 2.0.0       
+[x] pandas                          2.0.0        -&gt; 2.2.0       
+[ ] requests                        2.28.0       -&gt; 2.31.0      
+</pre></div> <p>And that's it. You can keep updating your conda packages as you usually do. <code>pip-select</code> will take care of the pip ones.</p> <p><a href="https://github.com/rsnemmen/pip-select" rel="external nofollow noopener" target="_blank">You can find <code>pip-select</code> here</a>.</p> <p>If you find this interesting, beta-testers are welcome. Just be sure to duplicate your conda environment before using pip-select.</p> </body></html>
