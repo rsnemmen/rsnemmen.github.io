@@ -7,7 +7,6 @@ importance: 1
 category: work
 ---
 
-
 <div class="alert alert-info"><h4>Executive Summary</h4><p>
 The ability to operationalize a machine-learning model is just as important as the
 model itself. In this mini-project I demonstrate how a trained XGBoost classifier
@@ -15,18 +14,15 @@ model itself. In this mini-project I demonstrate how a trained XGBoost classifie
 (1) wrapped behind a FastAPI service and (2) containerized with Docker, ready to be shipped to Google Cloud.
 </p></div>
 
-
 > “A model that never leaves the notebook never creates value.”
 
 ---
 
-
 ## Architecture Overview
 
-- *FastAPI* provides the `/predict` endpoint and auto-generated docs
-- *Docker* ensures identical runtime environments  
-- *Cloud Run* offers zero-ops serverless hosting on Google Cloud
-
+- _FastAPI_ provides the `/predict` endpoint and auto-generated docs
+- _Docker_ ensures identical runtime environments
+- _Cloud Run_ offers zero-ops serverless hosting on Google Cloud
 
 ## Repositories
 
@@ -34,14 +30,13 @@ model itself. In this mini-project I demonstrate how a trained XGBoost classifie
 
 [This repository](https://github.com/rsnemmen/fastapi-model) contains all code and instructions on how to serve the API locally. It serves a pre-trained customer churn XGBoost model and provides a `/predict` endpoint for making predictions. It uses Pydantic for request data validation.
 
-
 #### 2. Containerization with Docker
 
-[This repository](https://github.com/rsnemmen/docker-local-deploy) packages the previous application (the customer churn API) into a Docker image, ready to be shipped to the cloud (e.g. Google Cloud, AWS). 
+[This repository](https://github.com/rsnemmen/docker-local-deploy) packages the previous application (the customer churn API) into a Docker image, ready to be shipped to the cloud (e.g. Google Cloud, AWS).
 
 #### 3. Google Cloud deployment
 
-This model is currently being served on Google Cloud Cloud Run, and [can be accessed here](https://churn-model-j5c2fjobrq-wl.a.run.app). 
+This model is currently being served on Google Cloud Cloud Run, and [can be accessed here](https://churn-model-j5c2fjobrq-wl.a.run.app).
 
 ## Key Takeaways
 
@@ -52,9 +47,8 @@ This model is currently being served on Google Cloud Cloud Run, and [can be acce
    Although demonstrated on Google Cloud Run, the same container
    can be deployed to AWS, Azure, or on-prem K8s.
 
-4. **Framework agnostic**  
+3. **Framework agnostic**  
    These methods can be applied to other ML frameworks (PyTorch, TensorFlow).
-
 
 ## Next steps
 

@@ -1,6 +1,6 @@
 github_users:
   - rsnemmen
-  
+
 repo_description_lines_max: 2
 
 github_repos:
@@ -11,4 +11,3 @@ github_repos:
   - black-hole-group/AGNNES
   - black-hole-group/gpumonty
   - rsnemmen/Fermi-LAT-tutorial
-  

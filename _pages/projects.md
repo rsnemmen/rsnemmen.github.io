@@ -5,6 +5,18 @@ permalink: /projects/
 description: A growing portfolio.
 nav: true
 nav_order: 3
+dropdown: true
+children:
+  - title: all projects
+    permalink: /projects/
+  - title: divider
+  - title: work projects
+    permalink: /projects/#work
+  - title: fun projects
+    permalink: /projects/#fun
+  - title: divider
+  - title: LLM ranking
+    permalink: /llm-ranking/
 display_categories: [work, fun]
 horizontal: false
 ---

@@ -9,11 +9,11 @@ display_categories: [work]
 horizontal: false
 ---
 
-My field of research is black hole astrophysics: where *physics*, *astronomy*, *statistics* and *high-performance computing* collide. Out of this collision, I hope to get profound insights about the nature of gravity and the role of black holes in the cosmos. 
+My field of research is black hole astrophysics: where _physics_, _astronomy_, _statistics_ and _high-performance computing_ collide. Out of this collision, I hope to get profound insights about the nature of gravity and the role of black holes in the cosmos.
 
 I work at the interface between theory and observations, employing advanced computational simulations to model black hole accretion and their outflows, and studying their observed electromagnetic-ray emission.
 
-I use many tools in my research: 
+I use many tools in my research:
 
 - Scientific computing
 - Statistical analysis
@@ -21,12 +21,12 @@ I use many tools in my research:
 - Machine learning and predictive models
 
 ---
+
 **Key discoveries (no astrophysics background required)**
 
 Go [here for a summary of my most significant scientific discoveries](/key-science/) written in an accessible way.
 
 ---
-
 
 ## Numerical simulations of black hole accretion and outflows
 
@@ -35,11 +35,11 @@ Go [here for a summary of my most significant scientific discoveries](/key-scien
 - Accelerated methods using NVIDIA GPUs (CUDA)
 - Ergomagnetosphere
 
-## Gamma-ray astronomy 
+## Gamma-ray astronomy
 
 - Low-luminosity AGNs
 - Intermediate-mass black holes
-- Observatories: *Fermi* LAT, CTA
+- Observatories: _Fermi_ LAT, CTA
 
 ## Supermassive binary black holes and electromagnetic counterparts
 
@@ -48,4 +48,3 @@ Go [here for a summary of my most significant scientific discoveries](/key-scien
 - Applied methods including deep learning
 - Neural operators
 - Transformers
-

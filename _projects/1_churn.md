@@ -7,18 +7,14 @@ importance: 1
 category: work
 ---
 
-
 <div class="alert alert-info"><h4>Executive Summary</h4><p>
 Horizon is a fictitious large telecommunications company operating in California. Customer churn is costing Horizon approximately 60M dollars annually in lost revenue. I developed a XGBoost model that identified at-risk customers with 83% accuracy, enabling targeted retention campaigns that can reduce monthly churn. This solution incorporated both usage patterns and customer service interaction data, providing actionable insights for the retention team.
 </p></div>
 
-<!-- 
+<!--
 Data and analysis: Dropbox/codes/jupyter/data-science/kaggle/telco-customer-churn
-Order-of-magnitude telecom estimates: /Dropbox/codes/mathematica/data science/customer churn.nb 
+Order-of-magnitude telecom estimates: /Dropbox/codes/mathematica/data science/customer churn.nb
 -->
-
-
-
 
 ## Business Problem
 
@@ -30,8 +26,6 @@ Key business questions include:
 - What are the primary drivers of customer churn?
 - How can retention offers be optimized based on customer profiles?
 
-
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
      <a href="https://public.tableau.com/views/TableauEDA_17293880396620/Customerchurn?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">
@@ -42,9 +36,6 @@ Key business questions include:
 <div class="caption">
 Interactive Tableau dashboard illustrating the data.
 </div>
-
-
-
 
 ## Data & Methodology
 
@@ -63,12 +54,8 @@ Data for a fictional company for Q3, with numbers taken to be representative of 
 1. **Data Preprocessing**: Converted 10 categorical features using ordinal encoder.
 1. **Exploratory Analysis**: Identified where churn is concentrated and strong correlations between number of referrals, type of contract, monthly charge and churn.
 <!--2. **Feature Engineering**: Created 14 derived features including service call frequency, payment irregularity scores, and usage volatility metrics-->
-3. **Model Selection**: Evaluated logistic regression (baseline), random forest, and gradient boosting models on validation set.
+1. **Model Selection**: Evaluated logistic regression (baseline), random forest, and gradient boosting models on validation set.
 <!--4. **Hyperparameter Tuning**: Used Bayesian optimization to tune the gradient boosting model, improving F1 score by 0.07-->
-
-
-
-
 
 ## Key Insights & Findings
 
@@ -88,26 +75,21 @@ TODO: quantify the impact of charge, e.g. 10% larger bill => 45% higher churn ra
 
 4. **New competitor strongly correlated with churn**: This is particularly apparent in San Diego.
 
-
-
-
-
 ## Solution & Implementation
 
 The final XGBoost model achieved 83% accuracy on validation data.
 
-<!-- 
+<!--
 - 0.83 F1 score (balancing precision and recall)
 - 0.91 AUC-ROC score
 -->
 
 To make this actionable for the business, I could:
+
 - Develop a weekly automated pipeline to score all customers on churn probability.
 - Create customer segments based on churn drivers, enabling targeted retention strategies.
 - Build a Tableau dashboard for the retention team to prioritize outreach and recommended retention offers based on customer profiles
 - Implement an A/B testing framework to continuously measure retention campaign effectiveness
-
-
 
 <!--
 ## Business Impact
@@ -121,7 +103,7 @@ After 4 months of implementation:
 - **2.8X ROI** on retention program costs
 
 
-## Lessons 
+## Lessons
 
 This project highlighted several important learnings:
 

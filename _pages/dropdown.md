@@ -11,5 +11,8 @@ children:
     permalink: /key-science/
   - title: divider
   - title: applied research
-    permalink: /applied/    
+    permalink: /applied/
+  - title: divider
+  - title: LLM ranking
+    permalink: /llm-ranking/
 ---

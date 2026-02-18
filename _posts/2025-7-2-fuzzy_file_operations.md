@@ -7,7 +7,7 @@ categories: software
 related_posts: false
 ---
 
-I just created a new program that performs file operations with fuzzy filename matching: [fuzzycp](https://github.com/rsnemmen/fuzzy_cp). In order to understand what that means, here is a concrete example. 
+I just created a new program that performs file operations with fuzzy filename matching: [fuzzycp](https://github.com/rsnemmen/fuzzy_cp). In order to understand what that means, here is a concrete example.
 
 Suppose you have a file `names.txt` containing a list of names you want to match against. Let's say the content of this file is:
 
@@ -24,7 +24,7 @@ This is a random example—the top five games released for the Nintendo 64 conso
 ```
 'Spider-Man (U) [!].v64'
 'StarCraft 64 (U) [!].v64'
-'Starfox 64 1.1 (U).v64'  
+'Starfox 64 1.1 (U).v64'
 'Starshot - Space Circus Fever (U) [!].z64'
 'Star Wars - Rogue Squadron (U) [!].v64'
 'Star Wars - Shadows of the Empire (U) (V1.2) [!].v64'
