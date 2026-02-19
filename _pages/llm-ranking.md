@@ -5,6 +5,8 @@ permalink: /llm-ranking/
 description: LLM ranking comparison with placeholder images
 nav: false
 nav_order: 4
+images:
+  lightbox2: true
 ---
 
 This page displays LLM ranking comparisons.
@@ -13,38 +15,16 @@ This page displays LLM ranking comparisons.
 
 Below are placeholder images for the LLM ranking comparison:
 
-<div class="row mt-3">
-  <div class="col-sm-6 col-md-3 mb-3">
-    <div class="card">
-      <img src="/assets/img/clippies/ranks_general_ranking.png" class="card-img-top" alt="LLM Ranking 1">
-      <div class="card-body">
-        <p class="card-text text-center">Placeholder Image 1</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6 col-md-3 mb-3">
-    <div class="card">
-      <img src="/assets/img/clippies/ranks_general.png" class="card-img-top" alt="LLM Ranking 2">
-      <div class="card-body">
-        <p class="card-text text-center">Placeholder Image 2</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6 col-md-3 mb-3">
-    <div class="card">
-      <img src="/assets/img/clippies/ranks_coding_ranking.png" class="card-img-top" alt="LLM Ranking 3">
-      <div class="card-body">
-        <p class="card-text text-center">Placeholder Image 3</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6 col-md-3 mb-3">
-    <div class="card">
-      <img src="/assets/img/clippies/ranks_coding.png" class="card-img-top" alt="LLM Ranking 4">
-      <div class="card-body">
-        <p class="card-text text-center">Placeholder Image 4</p>
-      </div>
-    </div>
-  </div>
-</div>
+<a href="/assets/img/clippies/ranks_general_ranking.png" data-lightbox="roadtrip">
+  <img src="/assets/img/clippies/ranks_general_ranking.png" alt="General Ranking" style="width: 45%;">
+</a>
+<a href="/assets/img/clippies/ranks_general.png" data-lightbox="roadtrip">
+  <img src="/assets/img/clippies/ranks_general.png" alt="General Scores" style="width: 45%;">
+</a>
 
+<a href="/assets/img/clippies/ranks_coding_ranking.png" data-lightbox="roadtrip">
+  <img src="/assets/img/clippies/ranks_coding_ranking.png" alt="Coding Ranking" style="width: 45%;">
+</a>
+<a href="/assets/img/clippies/ranks_coding.png" data-lightbox="roadtrip">
+  <img src="/assets/img/clippies/ranks_coding.png" alt="Coding Scores" style="width: 45%;">
+</a>
