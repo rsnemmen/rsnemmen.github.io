@@ -19,6 +19,10 @@ images:
   <img src="/assets/img/clippies/ranks_general.png" alt="General Scores" style="width: 45%;">
 </a>
 
+**Left panel:** Overall ranking.  
+**Right panel:** Percentile rank (lower is better) versus relative API cost.
+
+
 ## Coding and agentic coding ranking
 
 <a href="/assets/img/clippies/ranks_coding_ranking.png" data-lightbox="roadtrip">
@@ -27,3 +31,6 @@ images:
 <a href="/assets/img/clippies/ranks_coding.png" data-lightbox="roadtrip">
   <img src="/assets/img/clippies/ranks_coding.png" alt="Coding Scores" style="width: 45%;">
 </a>
+
+**Left panel:** Overall ranking.  
+**Right panel:** Percentile rank (lower is better) versus relative API cost.
