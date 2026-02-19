@@ -11,6 +11,8 @@ images:
 
 I benchmarked dozens of LLMs across coding and general reasoning tasks, then mapped their performance against API pricing. This page breaks down the rankings and highlight the best value picks in each category.
 
+Updated on Feb. 19 2026.
+
 ## Introduction
 
 I conducted a statistical analysis of LLM rankings. My specific goals were:
