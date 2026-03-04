@@ -63,11 +63,11 @@ The general reasoning ranking, aggregated across four leaderboards, reveals a ti
 +------------------------------------------------------------------------------------+
 ```
 
-<a href="/assets/img/clippies/ranks_general_ranking.png" data-lightbox="roadtrip">
-  <img src="/assets/img/clippies/ranks_general_ranking.png" alt="General Ranking" style="width: 45%;">
+<a href="/assets/img/clippies/general_ranking.png" data-lightbox="roadtrip">
+  <img src="/assets/img/clippies/general_ranking.png" alt="General Ranking" style="width: 45%;">
 </a>
-<a href="/assets/img/clippies/ranks_general.png" data-lightbox="roadtrip">
-  <img src="/assets/img/clippies/ranks_general.png" alt="General Scores" style="width: 45%;">
+<a href="/assets/img/clippies/general.png" data-lightbox="roadtrip">
+  <img src="/assets/img/clippies/general.png" alt="General Scores" style="width: 45%;">
 </a>
 
 **Figure 1. Left panel:** Overall ranking. Circle size proportional to log10(API cost). **Right panel:** Credit cost (log scale) on the x-axis and average percentile score on the y-axis (inverted, so the best models appear at the top). The upper-left corner is the sweet spot: best performance at lowest cost. In both panels, error bars show ±1σ. Colors indicate statistical tier. Circles mark proprietary models; squares mark open-weights models. 
@@ -113,11 +113,11 @@ The coding ranking, drawn from seven benchmarks including demanding agentic eval
 +------------------------------------------------------------------------------------+
 ```
 
-<a href="/assets/img/clippies/ranks_coding_ranking.png" data-lightbox="roadtrip">
-  <img src="/assets/img/clippies/ranks_coding_ranking.png" alt="Coding Ranking" style="width: 45%;">
+<a href="/assets/img/clippies/coding_ranking.png" data-lightbox="roadtrip">
+  <img src="/assets/img/clippies/coding_ranking.png" alt="Coding Ranking" style="width: 45%;">
 </a>
-<a href="/assets/img/clippies/ranks_coding.png" data-lightbox="roadtrip">
-  <img src="/assets/img/clippies/ranks_coding.png" alt="Coding Scores" style="width: 45%;">
+<a href="/assets/img/clippies/coding.png" data-lightbox="roadtrip">
+  <img src="/assets/img/clippies/coding.png" alt="Coding Scores" style="width: 45%;">
 </a>
 
 **Figure 2:** Same conventions as Figure 1.
