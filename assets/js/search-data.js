@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/applied/";
               },
-            },{id: "post-introducing-gpumonty-simulating-black-hole-light-with-gpus",
+            },{id: "post-neural-operator-surrogate-for-magnetized-plasma-simulations",
+      
+        title: 'Neural Operator Surrogate for Magnetized Plasma Simulations <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://nemmen.bearblog.dev/neural-operator-surrogate-for-magnetized-plasma-simulations/", "_blank");
+        
+      },
+    },{id: "post-introducing-gpumonty-simulating-black-hole-light-with-gpus",
       
         title: 'Introducing GPUmonty: Simulating Black Hole Light with GPUs <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
