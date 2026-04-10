@@ -185,12 +185,12 @@ For consistent cost comparison, I normalize each model's Poe credit cost per 1,0
 
 ## Conclusions
 
-- For coding, the tier-1 club is now just two models: Anthropic's unreleased **Mythos** and **GPT-5.4**. If you need that peak performance today and cost is secondary, those are your only options.
-- Claude Opus 4.6, Sonnet 4.6, GLM 5.1, GPT-Codex 5.3, and Grok 4.2 form a strong tier-2 coding cohort—statistically indistinguishable from each other and close to the top.
-- For general reasoning, all eight tier-1 models are proprietary (Gemini Pro 3.1, GPT-5.4, Mythos, Opus 4.6, GPT-Pro 5.4, Sonnet 4.6, Meta's Muse, Grok 4.2). The best open-weights pick here is **GLM 5.1**, landing at rank 10.
-- Best value for general reasoning: **GLM 5.1**, **Kimi K2.5**, **Qwen 3.5**, **Gemini Flash 3**, and **Gemma 4 3.1** deliver tier-2-or-better performance at well below the cost of the top models.
-- Best value for coding and agentic tasks (e.g. [opencode](https://opencode.ai)): **Grok Fast 4.1**, **Gemma 4 3.1**, **DeepSeek V3.2**, **MiniMax M2.7**, **Qwen 3.5**, **GLM 5.1**, **Kimi K2.5**, and **Gemini Flash 3** all sit in the upper-left of the cost-performance plot.
-- For the tightest budgets, **DeepSeek V3.2** and **Grok Fast 4.1** remain the standout value picks; **GLM Flash 4.7** and **GPT-OSS-20B** push even further into budget territory.
+- For coding, the tier-1 club is now just three models: Anthropic's unreleased *Mythos*, *GPT-5.4* and *Gemini 3.1 Pro*. If you need that peak performance today and cost is secondary, those are the top LLM models.
+- There is a large tier-2 coding population that includes Claude Opus 4.6, Sonnet 4.6, GLM 5.1, GPT-Codex 5.3, GPT Mini 5.4 and Minimax 2.7, among others. This cohort is statistically indistinguishable from each other and close to the top.
+- For general reasoning, all eight tier-1 models are proprietary. The best open-weights pick here is *GLM 5.1*, landing at rank 10.
+- Best value for general reasoning: *Kimi K2.5*, *Qwen 3.5*, *Gemini Flash 3* and lite version, and *Gemma 4 3.1* deliver tier-2-or-better performance at well below the cost of the top models.
+- Best value for coding and agentic tasks (e.g. [opencode](https://opencode.ai)): *Grok Fast 4.1*, *Gemma 4 3.1*, *MiniMax M2.7*, *Qwen 3.5*, *Kimi K2.5*, and *Gemini Flash 3* all sit in the upper-left of the cost-performance plot.
+- For the tightest budgets, *DeepSeek V3.2*, *Grok Fast 4.1* and *Gemma 4* remain the standout value picks.
 
 ---
 
