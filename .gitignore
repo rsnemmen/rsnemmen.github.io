@@ -11,3 +11,7 @@ assets/libs/
 node_modules/
 vendor
 .idea
+
+# LLM-ranking scratch inputs (see CLAUDE.md)
+_pages/coding.txt
+_pages/general.txt
