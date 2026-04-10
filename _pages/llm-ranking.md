@@ -33,38 +33,38 @@ The general reasoning ranking, aggregated across seven leaderboards, is dominate
 +-------------------------------------------------------------------------------------+
 | Rank  | Model                   | Avg Pctl  | Std Dev   | # Benchmarks  | Rel. Cost |
 +-------------------------------------------------------------------------------------+
-| 1     | gemini-pro31            | 0.041     | 0.078     | 7             | 1.000     |
-| 2     | gpt54                   | 0.083     | 0.115     | 6             | 1.124     |
-| 3     | mythos                  | 0.101     | 0.001     | 2             | 6.424     |
-| 4     | opus46                  | 0.106     | 0.097     | 7             | 1.820     |
-| 5     | gpt-pro54               | 0.114     | 0.109     | 3             | 13.490    |
-| 6     | sonnet46                | 0.129     | 0.142     | 6             | 1.092     |
-| 7     | muse                    | 0.139     | 0.086     | 3             | 1.820     |
-| 8     | grok42                  | 0.181     | 0.149     | 6             | 13.490    |
-| 9     | gpt-codex53             | 0.208     | 0.050     | 2             | 1.006     |
-| 10    | glm51                   | 0.214     | 0.166     | 7             | 0.415     |
-| 11    | kimi25                  | 0.241     | 0.163     | 7             | 0.257     |
-| 12    | qwen35                  | 0.245     | 0.167     | 4             | 0.184     |
-| 13    | gemini-flash3           | 0.249     | 0.246     | 7             | 0.214     |
-| 14    | gpt-mini54              | 0.259     | 0.172     | 4             | 0.338     |
-| 15    | qwen3-max               | 0.272     | 0.133     | 5             | 0.471     |
-| 16    | gemini-flash-lite31     | 0.274     | 0.144     | 4             | 0.126     |
-| 17    | gemma4-31               | 0.286     | 0.219     | 6             | 0.041     |
-| 18    | deepseek32              | 0.290     | 0.163     | 7             | 0.049     |
-| 19    | qwen35-max              | 0.291     | N/A       | 1             | 0.749     |
-| 20    | minimax27               | 0.318     | 0.145     | 4             | 0.107     |
-| 21    | qwen3-235b              | 0.365     | N/A       | 1             | 0.642     |
-| 22    | grok-fast41             | 0.373     | 0.175     | 6             | 0.051     |
-| 23    | haiku45                 | 0.404     | 0.219     | 6             | 0.364     |
-| 24    | qwen3-80b               | 0.442     | N/A       | 1             | 0.171     |
-| 25    | glm-flash47             | 0.507     | 0.112     | 2             | 0.036     |
-| 26    | llama-maverick          | 0.583     | N/A       | 1             | 0.118     |
-| 27    | gpt-oss-120b            | 0.584     | 0.201     | 6             | 0.086     |
-| 28    | qwen35-35b              | 0.635     | N/A       | 1             | 0.107     |
-| 29    | qwen3-32b               | 0.637     | 0.203     | 3             | 0.086     |
-| 30    | gpt-oss-20b             | 0.647     | 0.160     | 3             | 0.032     |
-| 31    | qwen3-coder-30b         | 0.840     | N/A       | 1             | 0.107     |
-| 32    | nemotron-nano3          | 0.885     | N/A       | 1             | 0.043     |
+| 1     | mythos                  | 0.000     | 0.001     | 4             | 1.000     |
+| 2     | gpt54                   | 0.077     | 0.108     | 7             | 0.175     |
+| 3     | gemini-pro31            | 0.082     | 0.131     | 8             | 0.156     |
+| 4     | gpt-pro54               | 0.114     | 0.109     | 3             | 2.100     |
+| 5     | muse                    | 0.132     | 0.075     | 4             | 0.283     |
+| 6     | sonnet46                | 0.147     | 0.138     | 7             | 0.170     |
+| 7     | grok42                  | 0.181     | 0.149     | 6             | 2.100     |
+| 8     | opus46                  | 0.207     | 0.258     | 9             | 0.283     |
+| 9     | gpt-codex53             | 0.208     | 0.050     | 2             | 0.157     |
+| 10    | kimi25                  | 0.242     | 0.153     | 8             | 0.040     |
+| 11    | gemini-flash3           | 0.244     | 0.231     | 8             | 0.033     |
+| 12    | gpt-mini54              | 0.259     | 0.172     | 4             | 0.053     |
+| 13    | qwen3-max               | 0.272     | 0.133     | 5             | 0.073     |
+| 14    | gemini-flash-lite31     | 0.284     | 0.131     | 5             | 0.020     |
+| 15    | gemma4-31               | 0.286     | 0.219     | 6             | 0.006     |
+| 16    | deepseek32              | 0.290     | 0.163     | 7             | 0.008     |
+| 17    | qwen35-max              | 0.291     | N/A       | 1             | 0.117     |
+| 18    | glm51                   | 0.312     | 0.303     | 8             | 0.065     |
+| 19    | minimax27               | 0.318     | 0.145     | 4             | 0.017     |
+| 20    | qwen3-235b              | 0.365     | N/A       | 1             | 0.100     |
+| 21    | qwen35                  | 0.392     | 0.330     | 5             | 0.029     |
+| 22    | haiku45                 | 0.419     | 0.206     | 7             | 0.057     |
+| 23    | qwen3-80b               | 0.442     | N/A       | 1             | 0.027     |
+| 24    | grok-fast41             | 0.462     | 0.273     | 7             | 0.008     |
+| 25    | glm-flash47             | 0.507     | 0.112     | 2             | 0.006     |
+| 26    | llama-maverick          | 0.583     | N/A       | 1             | 0.018     |
+| 27    | gpt-oss-120b            | 0.584     | 0.201     | 6             | 0.013     |
+| 28    | qwen35-35b              | 0.635     | N/A       | 1             | 0.017     |
+| 29    | qwen3-32b               | 0.637     | 0.203     | 3             | 0.013     |
+| 30    | gpt-oss-20b             | 0.647     | 0.160     | 3             | 0.005     |
+| 31    | qwen3-coder-30b         | 0.840     | N/A       | 1             | 0.017     |
+| 32    | nemotron-nano3          | 0.885     | N/A       | 1             | 0.007     |
 +-------------------------------------------------------------------------------------+
 ```
 
@@ -80,7 +80,7 @@ The general reasoning ranking, aggregated across seven leaderboards, is dominate
 
 ### Coding and agentic coding
 
-The coding ranking, drawn from nine benchmarks including demanding agentic evaluations, reveals a two-model tier-1 club at the top—and a wide, cost-diverse tier 2 below it.
+The coding ranking, drawn from nine benchmarks including demanding agentic evaluations, reveals a three-model tier-1 club at the top—and a wide, cost-diverse tier 2 below it.
 
 ```
 +-------------------------------------------------------------------------------------+
@@ -187,8 +187,8 @@ For consistent cost comparison, I normalize each model's Poe credit cost per 1,0
 
 - For coding, the tier-1 club is now just three models: Anthropic's unreleased *Mythos*, *GPT-5.4* and *Gemini 3.1 Pro*. If you need that peak performance today and cost is secondary, those are the top LLM models.
 - There is a large tier-2 coding population that includes Claude Opus 4.6, Sonnet 4.6, GLM 5.1, GPT-Codex 5.3, GPT Mini 5.4 and Minimax 2.7, among others. This cohort is statistically indistinguishable from each other and close to the top.
-- For general reasoning, all eight tier-1 models are proprietary. The best open-weights pick here is *GLM 5.1*, landing at rank 10.
-- Best value for general reasoning: *Kimi K2.5*, *Qwen 3.5*, *Gemini Flash 3* and lite version, and *Gemma 4 3.1* deliver tier-2-or-better performance at well below the cost of the top models.
+- For general reasoning, all eight tier-1 models are proprietary. The best open-weights pick here is *Kimi K2.5*, landing at rank 10.
+- Best value for general reasoning: *Kimi K2.5*, *Gemini Flash 3* and lite version, and *Gemma 4 3.1* deliver tier-2-or-better performance at well below the cost of the top models.
 - Best value for coding and agentic tasks (e.g. [opencode](https://opencode.ai)): *Grok Fast 4.1*, *Gemma 4 3.1*, *MiniMax M2.7*, *Qwen 3.5*, *Kimi K2.5*, and *Gemini Flash 3* all sit in the upper-left of the cost-performance plot.
 - For the tightest budgets, *DeepSeek V3.2*, *Grok Fast 4.1* and *Gemma 4* remain the standout value picks.
 
