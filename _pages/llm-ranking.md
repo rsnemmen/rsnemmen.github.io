@@ -11,7 +11,7 @@ images:
 
 I benchmarked dozens of LLMs across coding and general reasoning tasks, then mapped their performance against API pricing. This page breaks down the rankings and highlight the best value picks in each category.
 
-Updated on Apr. 10 2026.
+Updated on Apr. 12 2026.
 
 ## Introduction
 
@@ -27,44 +27,37 @@ By analyzing the results, we can identify the highest-performing models as well 
 
 ### General reasoning
 
-The general reasoning ranking, aggregated across seven leaderboards, is dominated at the top by proprietary models—with open-weights challengers competitive from tier 2 onward.
+The general reasoning ranking, aggregated across eight leaderboards, is dominated at the top by proprietary models—with open-weights challengers competitive from tier 2 onward.
 
 ```
 +-------------------------------------------------------------------------------------+
-| Rank  | Model                   | Avg Pctl  | Std Dev   | # Benchmarks  | Rel. Cost |
+| Rank  | Model                   | Avg Pctl  | IQR/2     | # Benchmarks  | Rel. Cost |
 +-------------------------------------------------------------------------------------+
-| 1     | mythos                  | 0.000     | 0.001     | 4             | 1.000     |
-| 2     | gpt54                   | 0.077     | 0.108     | 7             | 0.175     |
-| 3     | gemini-pro31            | 0.082     | 0.131     | 8             | 0.156     |
-| 4     | gpt-pro54               | 0.114     | 0.109     | 3             | 2.100     |
-| 5     | muse                    | 0.132     | 0.075     | 4             | 0.283     |
-| 6     | sonnet46                | 0.147     | 0.138     | 7             | 0.170     |
-| 7     | grok42                  | 0.181     | 0.149     | 6             | 2.100     |
-| 8     | opus46                  | 0.207     | 0.258     | 9             | 0.283     |
-| 9     | gpt-codex53             | 0.208     | 0.050     | 2             | 0.157     |
-| 10    | kimi25                  | 0.242     | 0.153     | 8             | 0.040     |
-| 11    | gemini-flash3           | 0.244     | 0.231     | 8             | 0.033     |
-| 12    | gpt-mini54              | 0.259     | 0.172     | 4             | 0.053     |
-| 13    | qwen3-max               | 0.272     | 0.133     | 5             | 0.073     |
-| 14    | gemini-flash-lite31     | 0.284     | 0.131     | 5             | 0.020     |
-| 15    | gemma4-31               | 0.286     | 0.219     | 6             | 0.006     |
-| 16    | deepseek32              | 0.290     | 0.163     | 7             | 0.008     |
-| 17    | qwen35-max              | 0.291     | N/A       | 1             | 0.117     |
-| 18    | glm51                   | 0.312     | 0.303     | 8             | 0.065     |
-| 19    | minimax27               | 0.318     | 0.145     | 4             | 0.017     |
-| 20    | qwen3-235b              | 0.365     | N/A       | 1             | 0.100     |
-| 21    | qwen35                  | 0.392     | 0.330     | 5             | 0.029     |
-| 22    | haiku45                 | 0.419     | 0.206     | 7             | 0.057     |
-| 23    | qwen3-80b               | 0.442     | N/A       | 1             | 0.027     |
-| 24    | grok-fast41             | 0.462     | 0.273     | 7             | 0.008     |
-| 25    | glm-flash47             | 0.507     | 0.112     | 2             | 0.006     |
-| 26    | llama-maverick          | 0.583     | N/A       | 1             | 0.018     |
-| 27    | gpt-oss-120b            | 0.584     | 0.201     | 6             | 0.013     |
-| 28    | qwen35-35b              | 0.635     | N/A       | 1             | 0.017     |
-| 29    | qwen3-32b               | 0.637     | 0.203     | 3             | 0.013     |
-| 30    | gpt-oss-20b             | 0.647     | 0.160     | 3             | 0.005     |
-| 31    | qwen3-coder-30b         | 0.840     | N/A       | 1             | 0.017     |
-| 32    | nemotron-nano3          | 0.885     | N/A       | 1             | 0.007     |
+| 1     | mythos                  | 0.000     | 0.000     | 5             | 1.000     |
+| 2     | gemini-pro31            | 0.006     | 0.032     | 8             | 0.110     |
+| 3     | gpt54                   | 0.021     | 0.015     | 6             | 0.124     |
+| 4     | gpt-pro54               | 0.080     | 0.065     | 3             | 1.482     |
+| 5     | opus46                  | 0.083     | 0.096     | 9             | 0.200     |
+| 6     | sonnet46                | 0.096     | 0.050     | 7             | 0.120     |
+| 7     | muse                    | 0.096     | 0.024     | 5             | 0.200     |
+| 8     | qwen36-plus             | 0.135     | 0.033     | 3             | 0.028     |
+| 9     | grok42                  | 0.173     | 0.092     | 5             | 1.482     |
+| 10    | gemini-flash3           | 0.188     | 0.056     | 8             | 0.024     |
+| 11    | gpt-codex53             | 0.208     | N/A       | 2             | 0.111     |
+| 12    | glm51                   | 0.212     | 0.178     | 7             | 0.046     |
+| 13    | gpt-mini54              | 0.221     | 0.094     | 4             | 0.037     |
+| 14    | qwen35                  | 0.231     | 0.210     | 5             | 0.020     |
+| 15    | kimi25                  | 0.236     | 0.113     | 7             | 0.028     |
+| 16    | gemma4-31               | 0.236     | 0.141     | 6             | 0.004     |
+| 17    | qwen3-max               | 0.275     | 0.083     | 4             | 0.129     |
+| 18    | minimax27               | 0.303     | 0.087     | 4             | 0.012     |
+| 19    | gemini-flash-lite31     | 0.325     | 0.129     | 5             | 0.014     |
+| 20    | deepseek32              | 0.326     | 0.084     | 7             | 0.005     |
+| 21    | haiku45                 | 0.385     | 0.103     | 7             | 0.040     |
+| 22    | grok-fast41             | 0.386     | 0.148     | 6             | 0.006     |
+| 23    | gpt-oss-120b            | 0.590     | 0.211     | 6             | 0.009     |
+| 24    | qwen35-35b              | 0.635     | N/A       | 1             | 0.012     |
+| 25    | gpt-oss-20b             | 0.842     | N/A       | 2             | 0.004     |
 +-------------------------------------------------------------------------------------+
 ```
 
@@ -75,43 +68,41 @@ The general reasoning ranking, aggregated across seven leaderboards, is dominate
   <img src="/assets/img/clippies/general.png" alt="General Scores" style="width: 45%;">
 </a>
 
-**Figure 1. Left panel:** Overall ranking. Circle size proportional to log10(API cost). **Right panel:** Credit cost (log scale) on the x-axis and average percentile score on the y-axis (inverted, so the best models appear at the top). The upper-left corner is the sweet spot: best performance at lowest cost. In both panels, error bars show ±1σ. Colors indicate statistical tier. Circles mark proprietary models; squares mark open-weights models. 
+**Figure 1. Left panel:** Overall ranking. Circle size proportional to log10(API cost). **Right panel:** Credit cost (log scale) on the x-axis and median percentile score on the y-axis (inverted, so the best models appear at the top). The upper-left corner is the sweet spot: best performance at lowest cost. In both panels, error bars show ±semi-IQR; dots show individual benchmark percentiles. Colors indicate statistical tier. Circles mark proprietary models; squares mark open-weights models.
 
 
 ### Coding and agentic coding
 
-The coding ranking, drawn from nine benchmarks including demanding agentic evaluations, reveals a three-model tier-1 club at the top—and a wide, cost-diverse tier 2 below it.
+The coding ranking, drawn from seven benchmarks including demanding agentic evaluations, reveals a two-model tier-1 club at the top—and a wide, cost-diverse tier 2 below it.
 
 ```
 +-------------------------------------------------------------------------------------+
-| Rank  | Model                   | Avg Pctl  | Std Dev   | # Benchmarks  | Rel. Cost |
+| Rank  | Model                   | Avg Pctl  | IQR/2     | # Benchmarks  | Rel. Cost |
 +-------------------------------------------------------------------------------------+
-| 1     | mythos                  | 0.000     | 0.000     | 3             | 1.000     |
-| 2     | gpt54                   | 0.052     | 0.091     | 7             | 0.175     |
-| 3     | gpt-codex53             | 0.147     | 0.096     | 6             | 0.158     |
-| 4     | glm51                   | 0.160     | 0.099     | 6             | 0.065     |
-| 5     | opus46                  | 0.164     | 0.115     | 8             | 0.283     |
-| 6     | grok42                  | 0.189     | 0.121     | 3             | 2.833     |
-| 7     | sonnet46                | 0.206     | 0.136     | 8             | 0.170     |
-| 8     | gemini-pro31            | 0.240     | 0.255     | 8             | 0.156     |
-| 9     | gpt-mini54              | 0.250     | 0.097     | 6             | 0.053     |
-| 10    | minimax27               | 0.271     | 0.098     | 6             | 0.017     |
-| 11    | qwen35                  | 0.286     | 0.127     | 5             | 0.029     |
-| 12    | grok-fast41             | 0.288     | 0.179     | 5             | 0.008     |
-| 13    | gemma4-31               | 0.335     | 0.151     | 4             | 0.006     |
-| 14    | kimi25                  | 0.349     | 0.240     | 7             | 0.040     |
-| 15    | deepseek32              | 0.379     | 0.233     | 7             | 0.008     |
-| 16    | minimax25               | 0.396     | 0.219     | 8             | 0.017     |
-| 17    | haiku45                 | 0.396     | 0.220     | 8             | 0.057     |
-| 18    | gemini-flash3           | 0.416     | 0.283     | 7             | 0.033     |
-| 19    | qwen3-max               | 0.428     | 0.200     | 4             | 0.073     |
-| 20    | gemini-flash-lite31     | 0.456     | 0.160     | 5             | 0.020     |
-| 21    | gpt-oss-120b            | 0.599     | 0.168     | 5             | 0.013     |
-| 22    | glm-flash47             | 0.609     | N/A       | 1             | 0.006     |
-| 23    | nemotron-super3         | 0.613     | 0.176     | 4             | 0.013     |
-| 24    | gpt-oss-20b             | 0.700     | 0.186     | 4             | 0.005     |
-| 25    | nemotron-nano3          | 0.830     | 0.051     | 2             | 0.007     |
-| 26    | qwen3-coder-30b         | 1.000     | N/A       | 1             | 0.017     |
+| 1     | gpt54                   | 0.000     | 0.024     | 7             | 1.000     |
+| 2     | mythos                  | 0.000     | 0.000     | 3             | 8.095     |
+| 3     | gpt-codex53             | 0.129     | 0.086     | 6             | 0.901     |
+| 4     | qwen36-plus             | 0.148     | 0.035     | 3             | 0.223     |
+| 5     | gemini-pro31            | 0.164     | 0.134     | 8             | 0.890     |
+| 6     | opus46                  | 0.186     | 0.088     | 8             | 1.619     |
+| 7     | sonnet46                | 0.189     | 0.112     | 8             | 0.971     |
+| 8     | glm51                   | 0.206     | 0.087     | 6             | 0.370     |
+| 9     | muse                    | 0.268     | N/A       | 1             | 1.619     |
+| 10    | grok42                  | 0.268     | 0.066     | 3             | 16.190    |
+| 11    | minimax27               | 0.275     | 0.048     | 6             | 0.095     |
+| 12    | qwen35                  | 0.286     | 0.085     | 5             | 0.164     |
+| 13    | gpt-mini54              | 0.286     | 0.041     | 6             | 0.301     |
+| 14    | gemini-flash3           | 0.297     | 0.133     | 7             | 0.190     |
+| 15    | kimi25                  | 0.304     | 0.118     | 7             | 0.229     |
+| 16    | deepseek32              | 0.308     | 0.156     | 6             | 0.044     |
+| 17    | gemma4-31               | 0.379     | 0.093     | 4             | 0.036     |
+| 18    | grok-fast41             | 0.388     | 0.093     | 4             | 0.046     |
+| 19    | haiku45                 | 0.453     | 0.080     | 7             | 0.324     |
+| 20    | qwen3-max               | 0.476     | 0.119     | 4             | 1.048     |
+| 21    | gemini-flash-lite31     | 0.482     | 0.006     | 5             | 0.112     |
+| 22    | gpt-oss-120b            | 0.500     | 0.122     | 5             | 0.076     |
+| 23    | nemotron-super3         | 0.555     | 0.122     | 4             | 0.076     |
+| 24    | gpt-oss-20b             | 0.660     | 0.079     | 4             | 0.029     |
 +-------------------------------------------------------------------------------------+
 ```
 
@@ -129,24 +120,23 @@ The coding ranking, drawn from nine benchmarks including demanding agentic evalu
 
 ### Benchmark selection and data collection
 
-I manually collected model rankings from established LLM leaderboards on April 10, 2026, choosing benchmarks that cover different evaluation angles.
+I manually collected model rankings from established LLM leaderboards on April 12, 2026, choosing benchmarks that cover different evaluation angles.
 
-*General reasoning* draws on seven leaderboards:
+*General reasoning* draws on eight leaderboards:
 
 - [LiveBench](https://livebench.ai) — regularly refreshed, multi-domain evaluation designed to resist contamination
 - [Arena](https://arena.ai/leaderboard) — ELO-style ranking from blind human preference votes (a popular-preference signal rather than a strict accuracy benchmark, but informative nonetheless)
-- [Artificial Analysis Intelligence Index](https://artificialanalysis.ai) — a composite of 10 evaluations including GPQA Diamond, Humanity's Last Exam, SciCode, and others
 - [Scale's Humanity's Last Exam](https://scale.com/leaderboard/humanitys_last_exam) — expert-level reasoning questions
 - [SimpleBench](https://simple-bench.com) — commonsense and reasoning-trap questions designed to expose systematic errors
-- [Dubesor LLM Leaderboard](https://dubesor.de/benchtable) — hand-graded multi-domain evaluation
 - [GPQA Diamond](https://scale.com/leaderboard/gpqa) — graduate-level science questions spanning biology, chemistry, and physics
+- [MMMLU](https://huggingface.co/datasets/openai/MMMLU) — massive multilingual multitask language understanding
+- [USAMO](https://scale.com/leaderboard) — USA Mathematical Olympiad problems
+- [CharXiv](https://charxiv.github.io) — chart understanding and scientific figure comprehension
 
-*Coding and agentic coding* draws on nine leaderboards:
+*Coding and agentic coding* draws on seven leaderboards:
 
-- The three leaderboards previously mentioned (LiveBench coding subcategory, Arena, and Artificial Analysis agentic and coding sub-scores) plus six focused evaluations below.
+- LiveBench (coding subcategory), Arena (coding subcategory), and Artificial Analysis (agentic and coding sub-scores) plus four focused evaluations below.
 - [Scale's SWE Bench Pro Public](https://scale.com/leaderboard/swe_bench_pro_public)
-- [Berkeley Function-Calling Leaderboard (BFCL)](https://gorilla.cs.berkeley.edu/leaderboard.html) — tool and function call accuracy
-- [SWE-bench Verified](https://www.swebench.com) — real-world GitHub issue resolution
 - [Terminal-Bench 2.0](https://www.tbench.ai/leaderboard/terminal-bench/2.0) — agentic terminal and shell-based coding tasks
 - [SWE-Atlas Codebase QnA](https://sweatlas.com) — question-answering over large, real-world codebases
 
@@ -162,21 +152,25 @@ This puts every score on a 0–1 scale (0 = best, 1 = worst). A model that's 3rd
 
 ### Aggregation and penalties
 
-A model's composite score is the unweighted arithmetic mean of its percentiles across all benchmarks it appears on. To avoid boosting the ranking of a model that happens to score well on the single benchmark it was evaluated on, a sparse-data penalty is added: +0.25 for one benchmark, +0.10 for two, and zero for three or more.
+A model's composite score is the unweighted **median** of its percentiles across all benchmarks it appears on. To avoid boosting the ranking of a model that happens to score well on the single benchmark it was evaluated on, a sparse-data penalty is added: +0.25 for one benchmark, +0.10 for two, and zero for three or more.
+
+The median is preferred over the arithmetic mean because benchmark scores are heterogeneous—different leaderboards have different scale, coverage, and noise characteristics. A single outlier benchmark can pull a mean-based score well away from a model's typical performance. The median is resistant to such outliers, giving a more representative summary of where the model actually sits across evaluations.
 
 ### Statistical tiering
 
 Rather than treating every rank difference as meaningful, I group models into *tiers* using the "indistinguishable from best" method:
 
 1. The best model becomes the tier leader.
-2. Every remaining model whose $$\pm 1\sigma$$ confidence interval overlaps with the leader's joins the same tier.
+2. Every remaining model whose ±semi-IQR interval overlaps with the leader's joins the same tier.
 3. Remove the tier, promote the next-best model to leader, and repeat.
 
 Formally, *model i* is grouped with *leader j* if:
 
-$$\text{score}_i + \sigma_i \geq \text{score}_j - \sigma_j$$
+$$\text{score}_i + \frac{\text{IQR}_i}{2} \geq \text{score}_j - \frac{\text{IQR}_j}{2}$$
 
-In plain terms: if B's best-case performance could plausibly reach A's worst-case, we can't confidently distinguish them. This acknowledges that benchmark scores carry noise and avoids drawing artificial distinctions where the evidence doesn't support them. Models evaluated on fewer than two benchmarks have no standard deviation, so the average σ across all other models is used as a stand-in.
+In plain terms: if B's best-case performance could plausibly reach A's worst-case, we can't confidently distinguish them. This acknowledges that benchmark scores carry noise and avoids drawing artificial distinctions where the evidence doesn't support them.
+
+The **semi-IQR** (half the interquartile range) is the natural robust companion to the median as the dispersion measure. Unlike standard deviation, it is not sensitive to the same outlier benchmarks the median was chosen to resist—using mean + SD or median + SD would be internally inconsistent. Semi-IQR requires at least three data points to be defined; models with fewer than three benchmarks receive the average semi-IQR across all other models as a stand-in.
 
 ### Cost metric
 
@@ -185,12 +179,13 @@ For consistent cost comparison, I normalize each model's Poe credit cost per 1,0
 
 ## Conclusions
 
-- For coding, the tier-1 club is now just three models: Anthropic's unreleased *Mythos*, *GPT-5.4* and *Gemini 3.1 Pro*. If you need that peak performance today and cost is secondary, those are the top LLM models.
-- There is a large tier-2 coding population that includes Claude Opus 4.6, Sonnet 4.6, GLM 5.1, GPT-Codex 5.3, GPT Mini 5.4 and Minimax 2.7, among others. This cohort is statistically indistinguishable from each other and close to the top.
-- For general reasoning, all eight tier-1 models are proprietary. The best open-weights pick here is *Kimi K2.5*, landing at rank 10.
-- Best value for general reasoning: *Kimi K2.5*, *Gemini Flash 3* and lite version, and *Gemma 4 3.1* deliver tier-2-or-better performance at well below the cost of the top models.
-- Best value for coding and agentic tasks (e.g. [opencode](https://opencode.ai)): *Grok Fast 4.1*, *Gemma 4 3.1*, *MiniMax M2.7*, *Qwen 3.5*, *Kimi K2.5*, and *Gemini Flash 3* all sit in the upper-left of the cost-performance plot.
-- For the tightest budgets, *DeepSeek V3.2*, *Grok Fast 4.1* and *Gemma 4* remain the standout value picks.
+- For coding, the tier-1 club is now just two models: *GPT-5.4* and Anthropic's unreleased *Mythos*, both tied at 0.000 median percentile. If you need peak coding performance and cost is secondary, those are the models.
+- There is a large tier-2 coding population—*GPT-Codex 5.3*, *Qwen 3.6 Plus*, *Gemini 3.1 Pro*, *Claude Opus 4.6*, *Claude Sonnet 4.6*, and *GLM 5.1*—statistically indistinguishable from each other and close to the top.
+- For general reasoning, the top three are extremely close: *Mythos*, *Gemini 3.1 Pro* (0.006), and *GPT-5.4* (0.021)—effectively a three-way tie within the margin of variability.
+- Best open-weights pick for general reasoning: *GLM 5.1* (rank 12), *Qwen 3.5* (rank 14), *Kimi K2.5* (rank 15), and *Gemma 4 3.1* (rank 16) are all competitive in the upper half of the table.
+- Best value for general reasoning: *Gemma 4 3.1* (Rel. Cost 0.004), *DeepSeek V3.2* (0.005), *MiniMax M2.7* (0.012), and *Gemini Flash Lite 3.1* (0.014) deliver strong performance at a fraction of the frontier price.
+- Best value for coding and agentic tasks (e.g. [opencode](https://opencode.ai)): *DeepSeek V3.2*, *Gemma 4 3.1*, *Grok Fast 4.1*, *MiniMax M2.7*, and *Qwen 3.5* all offer solid performance at the low end of the cost range.
+- For the tightest budgets, *DeepSeek V3.2* (0.005 relative cost for coding), *Gemma 4 3.1*, and *Grok Fast 4.1* remain the standout value picks across both categories.
 
 ---
 
