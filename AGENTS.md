@@ -95,7 +95,8 @@ pre-commit run --all-files
 
 - Main config: `_config.yml`
 - Use YAML front matter for page metadata
-- Collections: `news`, `projects`, `books`
+- Collections: `news`, `projects`, `books`, `teachings`
+- Jekyll includes both `_pages/` and `_scripts/` during builds
 - Exclude build files and docs from site generation
 
 ### Naming Conventions
@@ -110,6 +111,7 @@ pre-commit run --all-files
 - Posts: Markdown in `_posts/` with date prefix (`YYYY-MM-DD-title.md`)
 - Pages: Markdown in `_pages/`
 - Projects: Markdown in `_projects/`
+- Teachings: Markdown in `_teachings/` when using the teachings collection
 - Bibliography: BibTeX in `_bibliography/papers.bib`
 - Images: `assets/img/`
 - PDFs: `assets/pdf/`
@@ -176,10 +178,12 @@ categories: category-name
 ├── _layouts/         # Page layouts
 ├── _news/            # News items
 ├── _pages/           # Static pages
+├── _scripts/         # Build-time scripts included in the site
 ├── _plugins/         # Jekyll plugins
 ├── _posts/           # Blog posts
 ├── _projects/        # Project showcases
 ├── _sass/            # SCSS stylesheets
+├── bin/              # Helper scripts used by repo automation
 ├── assets/           # Images, CSS, JS, JSON
 └── .github/          # GitHub Actions workflows
 ```

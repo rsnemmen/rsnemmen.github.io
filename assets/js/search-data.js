@@ -73,127 +73,127 @@ ninja.data = [{
                 window.location.href = "/applied/";
               },
             },{id: "post-bces-2-0-now-with-weighted-least-squares",
-      
-        title: 'BCES 2.0: Now with weighted least squares <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
         
-          window.open("https://residuals.bearblog.dev/bces-20-now-with-weighted-least-squares/", "_blank");
+          title: 'BCES 2.0: Now with weighted least squares <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "post-neural-operator-surrogate-for-magnetized-plasma-simulations",
-      
-        title: 'Neural Operator Surrogate for Magnetized Plasma Simulations <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://residuals.bearblog.dev/bces-20-now-with-weighted-least-squares/", "_blank");
+          
+        },
+      },{id: "post-neural-operator-surrogate-for-magnetized-plasma-simulations",
         
-          window.open("https://nemmen.bearblog.dev/neural-operator-surrogate-for-magnetized-plasma-simulations/", "_blank");
+          title: 'Neural Operator Surrogate for Magnetized Plasma Simulations <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "post-introducing-gpumonty-simulating-black-hole-light-with-gpus",
-      
-        title: 'Introducing GPUmonty: Simulating Black Hole Light with GPUs <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://nemmen.bearblog.dev/neural-operator-surrogate-for-magnetized-plasma-simulations/", "_blank");
+          
+        },
+      },{id: "post-introducing-gpumonty-simulating-black-hole-light-with-gpus",
         
-          window.open("https://nemmen.bearblog.dev/introducing-gpumonty-simulating-black-hole-light-with-gpus/", "_blank");
+          title: 'Introducing GPUmonty: Simulating Black Hole Light with GPUs <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "post-you-are-probably-overpaying-for-intelligence",
-      
-        title: 'You are probably overpaying for intelligence <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://nemmen.bearblog.dev/introducing-gpumonty-simulating-black-hole-light-with-gpus/", "_blank");
+          
+        },
+      },{id: "post-you-are-probably-overpaying-for-intelligence",
         
-          window.open("https://residuals.bearblog.dev/you-are-probably-overpaying-for-intelligence/", "_blank");
+          title: 'You are probably overpaying for intelligence <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "post-pip-select-an-interactive-tool-for-updating-pip-installed-python-packages-conda-friendly",
-      
-        title: 'pip-select, an interactive tool for updating pip-installed python packages (conda-friendly) <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://residuals.bearblog.dev/you-are-probably-overpaying-for-intelligence/", "_blank");
+          
+        },
+      },{id: "post-pip-select-an-interactive-tool-for-updating-pip-installed-python-packages-conda-friendly",
         
-          window.open("https://residuals.bearblog.dev/pip-select-an-interactive-tool-for-updating-pip-installed-python-packages-conda-friendly/", "_blank");
+          title: 'pip-select, an interactive tool for updating pip-installed python packages (conda-friendly) <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "post-the-state-of-agentic-coding",
-      
-        title: 'The state of agentic coding <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://residuals.bearblog.dev/pip-select-an-interactive-tool-for-updating-pip-installed-python-packages-conda-friendly/", "_blank");
+          
+        },
+      },{id: "post-the-state-of-agentic-coding",
         
-          window.open("https://residuals.bearblog.dev/the-state-of-agentic-coding/", "_blank");
+          title: 'The state of agentic coding <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "post-nature-news-amp-views-article",
-      
-        title: 'Nature News &amp; Views article <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://residuals.bearblog.dev/the-state-of-agentic-coding/", "_blank");
+          
+        },
+      },{id: "post-nature-news-amp-views-article",
         
-          window.open("https://nemmen.bearblog.dev/nature-news-views-article/", "_blank");
+          title: 'Nature News &amp; Views article <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "post-from-horizon-scales-to-cocoons-my-favorite-black-hole-papers-of-2025",
-      
-        title: 'From horizon scales to cocoons: My favorite black hole papers of 2025 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://nemmen.bearblog.dev/nature-news-views-article/", "_blank");
+          
+        },
+      },{id: "post-from-horizon-scales-to-cocoons-my-favorite-black-hole-papers-of-2025",
         
-          window.open("https://residuals.bearblog.dev/from-horizon-scales-to-cocoons-my-favorite-black-hole-papers-of-2025/", "_blank");
+          title: 'From horizon scales to cocoons: My favorite black hole papers of 2025 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "post-agn-jets-review-talk-at-zihuatanejo",
-      
-        title: 'AGN jets review talk at Zihuatanejo <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://residuals.bearblog.dev/from-horizon-scales-to-cocoons-my-favorite-black-hole-papers-of-2025/", "_blank");
+          
+        },
+      },{id: "post-agn-jets-review-talk-at-zihuatanejo",
         
-          window.open("https://nemmen.bearblog.dev/agn-jets-review-talk-at-zihuatanejo/", "_blank");
+          title: 'AGN jets review talk at Zihuatanejo <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "post-fuzzy-file-operations-with-fuzzycp",
-      
-        title: "Fuzzy file operations with fuzzycp",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://nemmen.bearblog.dev/agn-jets-review-talk-at-zihuatanejo/", "_blank");
+          
+        },
+      },{id: "post-fuzzy-file-operations-with-fuzzycp",
         
-          window.location.href = "/blog/2025/fuzzy_file_operations/";
+          title: "Fuzzy file operations with fuzzycp",
         
-      },
-    },{id: "post-model-deployment-with-fastapi-and-docker",
-      
-        title: "Model deployment with FastAPI and Docker",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/fuzzy_file_operations/";
+          
+        },
+      },{id: "post-model-deployment-with-fastapi-and-docker",
         
-          window.location.href = "/blog/2025/deploy/";
+          title: "Model deployment with FastAPI and Docker",
         
-      },
-    },{id: "books-the-godfather",
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/deploy/";
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
