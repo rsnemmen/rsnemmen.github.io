@@ -36,7 +36,7 @@ The central questions are:
 
 ## Numerical Experiment
 
-We performed two-dimensional hydrodynamical simulations of accretion onto a $10 M_\odot$ black hole using the PLUTO code. The simulations approximate Schwarzschild gravity with a pseudo-Newtonian potential and include radiative losses from bremsstrahlung, synchrotron emission, synchrotron self-Compton cooling, and optically thick cooling in dense regions.
+We performed two-dimensional hydrodynamical simulations of accretion onto a $10 M_\odot$ black hole using the PLUTO code. This was a team effort including Ivan Almeida, Artur Vemado, Pedro Motta, and Javier Garcia. The simulations approximate Schwarzschild gravity with a pseudo-Newtonian potential and include radiative losses from bremsstrahlung, synchrotron emission, synchrotron self-Compton cooling, and optically thick cooling in dense regions.
 
 The initial condition is a hot torus. After a burn-in phase, radiative cooling is enabled and the flow is allowed to evolve. We varied the accretion rate over $0.02 \leq \dot{M}/\dot{M}_{\rm Edd} \leq 0.35$, covering the regime where hard-state X-ray binaries are expected to transition between radiatively inefficient and thin-disk-dominated accretion.
 
