@@ -228,12 +228,27 @@ ninja.data = [{
           title: 'Customer Churn',
           description: "Identify customer churn with over 80% accuracy using XGBoost",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_churn/";
+              window.location.href = "/projects/churn/";
             },},{id: "projects-deployment-with-fastapi-docker",
           title: 'Deployment with FastAPI, Docker',
           description: "Serve and containerize ML models, ready for the cloud (GCP, AWS)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_deploy/";
+              window.location.href = "/projects/deploy/";
+            },},{id: "projects-gpumonty",
+          title: 'GPUmonty',
+          description: "GPU-accelerated Monte Carlo radiative transfer for black hole spectra",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gpumonty/";
+            },},{id: "projects-robust-llm-benchmark-aggregation",
+          title: 'Robust LLM Benchmark Aggregation',
+          description: "Median-percentile aggregation and statistical tiering for frontier LLM benchmark rankings",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/llm-benchmark-aggregation/";
+            },},{id: "projects-truncated-disk-simulations",
+          title: 'Truncated Disk Simulations',
+          description: "Hot coronae and truncated thin disks in simulations of accreting stellar-mass black holes",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/truncated-disk-pluto/";
             },},{
         id: 'social-email',
         title: 'email',
