@@ -12,7 +12,7 @@ children:
   - title: divider
   - title: LLM ranking
     permalink: /llm-ranking/
-display_categories: [work, misc, astrophysics]
+display_categories: [astrophysics, misc]
 horizontal: false
 ---
 
