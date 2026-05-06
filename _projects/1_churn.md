@@ -4,7 +4,7 @@ title: Customer Churn
 description: Identify customer churn with over 80% accuracy using XGBoost
 img: assets/img/churn-cover.jpg
 importance: 1
-category: work
+category: misc
 ---
 
 <div class="alert alert-info"><h4>Executive Summary</h4><p>
