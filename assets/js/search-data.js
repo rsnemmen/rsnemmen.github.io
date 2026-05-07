@@ -234,6 +234,11 @@ ninja.data = [{
           description: "Serve and containerize ML models, ready for the cloud (GCP, AWS)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/deploy/";
+            },},{id: "projects-fourier-neural-operator-for-magnetized-plasmas",
+          title: 'Fourier Neural Operator for Magnetized Plasmas',
+          description: "Neural operator surrogate for 2D MHD turbulence simulations",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fno-vortex/";
             },},{id: "projects-gpumonty",
           title: 'GPUmonty',
           description: "GPU-accelerated Monte Carlo radiative transfer for black hole spectra",
