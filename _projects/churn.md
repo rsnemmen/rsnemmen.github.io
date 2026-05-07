@@ -4,7 +4,8 @@ title: Customer Churn
 description: Identify customer churn with over 80% accuracy using XGBoost
 img: assets/img/churn-cover.jpg
 importance: 1
-category: misc
+category: ai
+github: https://github.com/rsnemmen/telco-churn
 ---
 
 <div class="alert alert-info"><h4>Executive Summary</h4><p>

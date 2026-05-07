@@ -5,6 +5,7 @@ description: Serve and containerize ML models, ready for the cloud (GCP, AWS)
 img: assets/img/Deploy_cover.png
 importance: 1
 category: misc
+github: https://github.com/rsnemmen/fastapi-model
 ---
 
 <div class="alert alert-info"><h4>Executive Summary</h4><p>
