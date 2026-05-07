@@ -44,7 +44,7 @@ The initial condition is a hot torus. After a burn-in phase, radiative cooling i
 
 For $\dot{M}/\dot{M}_{\rm Edd} \geq 0.06$, the simulations form a cold thin disk embedded inside a hot corona. The disk is dense and geometrically thin, while the corona remains hot, with typical electron temperatures of $10^{9}$-$10^{10}$ K.
 
-At the lowest simulated accretion rate, $\dot{M}/\dot{M}_{\rm Edd} = 0.02$, the thin disk disappears and the flow remains hot and geometrically thick. This constrains the critical accretion rate for the disk to disappear to roughly $0.02 < \dot{M}_{\rm crit}/\dot{M}_{\rm Edd} \lesssim 0.06$.
+At the lowest simulated accretion rate, $\dot{M}/\dot{M}\_{\rm Edd} = 0.02$, the thin disk disappears and the flow remains hot and geometrically thick. This constrains the critical accretion rate for the disk to disappear to roughly $0.02 < \dot{M}\_{\rm crit}/\dot{M}\_{\rm Edd} \lesssim 0.06$.
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
