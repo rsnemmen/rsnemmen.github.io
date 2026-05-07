@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing portfolio.
+description: Portfolio of computational science and ML projects.
 nav: true
 nav_order: 3
 dropdown: true
