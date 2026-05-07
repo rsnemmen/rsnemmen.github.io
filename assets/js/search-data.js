@@ -249,6 +249,11 @@ ninja.data = [{
           description: "Median-percentile aggregation and statistical tiering for frontier LLM benchmark rankings",
           section: "Projects",handler: () => {
               window.location.href = "/projects/llm-benchmark-aggregation/";
+            },},{id: "projects-mhd-simulation-analysis-toolkit",
+          title: 'MHD Simulation Analysis Toolkit',
+          description: "Python toolkit for post-processing, diagnostics, and visualization of PLUTO MHD simulations",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mhd-simulation-analysis/";
             },},{id: "projects-truncated-disk-simulations",
           title: 'Truncated Disk Simulations',
           description: "Hot coronae and truncated thin disks in simulations of accreting stellar-mass black holes",
