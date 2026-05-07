@@ -13,6 +13,13 @@ For build commands, Prettier rules (print width 150), pre-commit hooks, SCSS str
 - Prettier enforced by pre-commit + CI; don't bypass it.
 - ImageMagick must be installed locally for WebP generation during builds.
 
+## Content source map
+
+- About page content lives in `_pages/about.md`; its current profile image is configured there as `profile.jpg`.
+- CV page routing/front matter lives in `_pages/cv.md`, but CV data is loaded from `assets/json/resume.json` via `_config.yml`.
+- `_data/cv.yml` is only the fallback CV source if the JSON resume source is removed or disabled.
+- Repository page data lives in `_data/repositories.yml`.
+
 ## Custom Jekyll plugins (`_plugins/`)
 
 | Plugin                        | Purpose                                       |
@@ -40,6 +47,14 @@ The `_pages/llm-ranking.md` page is updated regularly (roughly monthly).
 
 - `_data/citations.yml` is maintained by `bin/update_scholar_citations.py` and the scheduled `.github/workflows/update-citations.yml` workflow.
 - Prefer updating the citation-fetching code or rerunning the automation over hand-editing `_data/citations.yml` unless the user explicitly asks for a manual data fix.
+
+## Recurring task: publication updates
+
+- Publications are rendered automatically from `_bibliography/papers.bib`; update that BibTeX file rather than editing the rendered publications page.
+- Usual source is a NASA ADS BibTeX export of Rodrigo's publications, followed by local journal-name normalization before replacing `_bibliography/papers.bib`.
+- Personal cleanup workflow, from the parent website directory: `~/Dropbox/codes/python/replacements.py ~/Dropbox/science/mypapers/references/journals.txt papers.bib "rsnemmen.github.io/_bibliography/papers.bib"`.
+- Mark selected publications with `selected={true}` in the BibTeX entry.
+- Useful display fields for selected papers include `abbr`, `html`, and `pdf`.
 
 ## Files and paths to leave alone
 
